@@ -135,6 +135,20 @@ img{
     width:48%;
     margin: 0.5% 0.5%;
     cursor: pointer;
+    opacity: 0;
+    transform: scale(0.7,0.7);
+    -webkit-transform: scale(0.7,0.7);
+    -moz-transform: scale(0.7,0.7);
+    transition: 1.2s all ease;
+    -webkit-transition: 1.2s all ease;
+    -moz-transition: 1.2s all ease;
+}
+
+.projectThumb.in-view{
+    opacity: 1!important;
+     transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
 }
 
 .projectThumb img{
@@ -270,6 +284,20 @@ img{
     top: -45%;
     left: -5%;
     z-index: 10;
+    opacity: 0;
+    transform: translate(-150px,0px);
+    -webkit-transform: translate(-150px,0px);
+    -moz-transform: translate(-150px,0px);
+    -webkit-transition: all 0.8s ease-in;
+    -moz-transition: all 0.8s ease-in;
+    transition: all 0.8s ease-in;
+
+}
+#secondCopy.in-view{
+    opacity: 1;
+ transform: translate(0px,0px);
+    -webkit-transform: translate(0px,0px);
+    -moz-transform: translate(0px,0px);
 }
 #bgbt{
 	background: url(../img/bottomBg.png) center top;
@@ -293,6 +321,165 @@ img{
     position: relative;
     z-index: 10;
 }
+
+#telefono1{
+    position:absolute;
+    width: 25%;
+    top: -30%;
+    left: 20%;
+    z-index:1;
+    opacity: 0;
+    -webkit-transform: translate(0px,-200px);
+    -moz-transform: translate(0px,-200px);
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+#telefono1.in-view{
+    opacity: 1;
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+}
+
+
+#telefono1A{
+    position:absolute;
+    width: 11%;
+    top: 8%;
+    left: 25%;
+    opacity:0;
+    z-index:2;
+    -webkit-transition: all 1.2s ease-in;
+    -moz-transition: all 1.2s ease-in;
+    transition: all 1.2s ease-in;
+    transform: scale(0.6,0.6);
+    -webkit-transform: scale(0.6,0.6);
+    -moz-transform: scale(0.6,0.6);
+}
+
+#telefono1A.in-view{
+    position:absolute;
+    top: -10%;
+    left: 25%;
+    opacity:1;
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+}
+
+#telefono1B{
+    position:absolute;
+    width: 10%;
+    top: 20%;
+    left: 25%;
+    opacity:0; 
+    z-index:2;
+    -webkit-transition: all 1.2s ease-in;
+    -moz-transition: all 1.2s ease-in;
+    transition: all 1.2s ease-in;
+    transform: scale(0.6,0.6);
+    -webkit-transform: scale(0.6,0.6);
+    -moz-transform: scale(0.6,0.6);
+}
+#telefono1B.in-view{
+    top: -0%;
+    left: 16%;
+    opacity: 1;
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+}
+
+#telefono2{
+    position:absolute;
+    position: absolute;
+    width: 28%;
+    top: -70%;
+    right: 35%;
+    opacity: 0;
+    z-index:0;
+     -webkit-transition: all 1.2s ease-in;
+    -moz-transition: all 1.2s ease-in;
+    transition: all 1.2s ease-in;
+    transform: translate(0,200px);
+    -webkit-transform: translate(0,200px);
+    -moz-transform: translate(0,200px);
+}
+#telefono2.in-view{
+    opacity: 1;
+    transform: translate(0,0);
+    -webkit-transform: translate(0,0);
+    -moz-transform: translate(0,0);
+}
+
+#interestPoint{
+    position:absolute;
+    position: absolute;
+    width: 17%;
+    top: -50%;
+    left: 40%;
+    opacity:0;
+     -webkit-transition: all 1.2s ease-in;
+    -moz-transition: all 1.2s ease-in;
+    transition: all 1.2s ease-in;
+    transform: scale(0.6,0.6);
+    -webkit-transform: scale(0.6,0.6);
+    -moz-transform: scale(0.6,0.6);
+}
+
+#interestPoint.in-view{
+    top: -60%;
+    left:45%;
+    opacity: 1;
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+}
+
+#telefono2B{
+    position:absolute;
+    position: absolute;
+    width: 20%;
+    top: -45%;
+    right: 38%;
+    opacity:0;
+     -webkit-transition: all 1.2s ease-in;
+    -moz-transition: all 1.2s ease-in;
+    transition: all 1.2s ease-in;
+    transform: scale(0.6,0.6);
+    -webkit-transform: scale(0.6,0.6);
+    -moz-transform: scale(0.6,0.6);
+}
+#telefono2B.in-view{
+    top: -60%;
+    right: 30%;
+    opacity: 1;
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+}
+#pantallaA{
+    -webkit-transition: all 1.2s ease-in;
+    -moz-transition: all 1.2s ease-in;
+    transition: all 1.2s ease-in;
+}
+#pantallaB{
+    width:92.5%;
+    margin-left:7.5%;
+    position:relative;
+    z-index:100;
+    -webkit-transition: all 1.2s ease-in;
+    -moz-transition: all 1.2s ease-in;
+    transition: all 1.2s ease-in;
+}
+#pantallaA.in-view, #pantallaB.in-view{
+     transform: translate(0,100%);
+    -webkit-transform: translate(0,100%);
+    -moz-transform: translate(0,100%);
+}
+
 
 @media screen and (min-width: 1350px){
 	#thirdSection{

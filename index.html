@@ -80,74 +80,34 @@
 <div id="thirdSection" class="wrapper">
 		<div id="phoneAnimation" class="container">
               <div class="row">
-              <div class="twelve columns parallaxVertical">
+              <div id="scrollAnimatedPhones" class="twelve columns parallaxVertical">
                   
-                  <p id="secondCopy">CREAMOS <br/> <b>EXPERIENCIAS</b> INCREIBLES <br/> PARA <b>PERSONAS</b> INCREIBLES</p>
+                  <p class="scrollAnimated" id="secondCopy">CREAMOS <br/> <b>EXPERIENCIAS</b> INCREIBLES <br/> PARA <b>PERSONAS</b> INCREIBLES</p>
                   
-                  <img style="width:100%" src="img/web_lado_a.png" alt="">
+                  <img class="scrollAnimated" id="pantallaA" style="width:100%" src="img/web_lado_a.png" alt="">
                   
                   <!-- telefono Izquierda -->
-                  <img style="position:absolute;
-                              width: 25%;
-                              top: -30%;
-                              left: 20%;
-                              z-index:1;" 
-                              src="img/telefono_uno.png" alt=""
-                              class="animated" id="telefono1">
+                  <img src="img/telefono_uno.png" alt=""
+                  class="scrollAnimated" id="telefono1">
                   
-                  <img style="position:absolute;
-                              width: 11%;
-                              top: -10%;
-                              left: 25%;
-                              opacity:1;
-                               z-index:2;" 
-                              src="img/telefono_uno_layerA.png" alt=""
-                              class="animated" id="telefono1A">
+                  <img src="img/telefono_uno_layerA.png" alt=""
+                   class="scrollAnimated" id="telefono1A">
                               
-                  <img style="position:absolute;
-                              width: 10%;
-                              top: -0%;
-                              left: 16%;
-                              opacity:1; 
-                              z-index:2;"  
-                              src="img/telefono_uno_layerB.png" alt=""
-                              class="animated" id="telefono1B">
+                  <img src="img/telefono_uno_layerB.png" alt=""
+                   class="scrollAnimated" id="telefono1B">
                   
 
                   <!-- telefono Derecha -->                              
-                  <img style="position:absolute;
-                                  position: absolute;
-                                  width: 28%;
-                                  top: -70%;
-                                  right: 35%;
-                                  z-index:0;" 
-                              src="img/telefono_dos.png" alt=""
-                              class="animated" id="telefono2">
+                  <img src="img/telefono_dos.png" alt=""
+                   class="scrollAnimated" id="telefono2">
                               
-                  <img style="position:absolute;
-                                  position: absolute;
-                                  width: 17%;
-                                  top: -60%;
-                                  left:45%;
-                                  opacity:1;" 
-                              src="img/telefono_dos_layerA.png" alt="" id="interestPoint"
-                              class="animated">
+                  <img src="img/telefono_dos_layerA.png" alt="" id="interestPoint" class="scrollAnimated">
                               
-                   <img style="position:absolute;
-                                  position: absolute;
-                                  width: 20%;
-                                  top: -60%;
-                                  right: 30%;
-                                  opacity:1;" 
-                              src="img/telefono_dos_layerB.png" alt=""
-                              class="animated"  id="telefono2B">
+                   <img src="img/telefono_dos_layerB.png" alt=""
+                   class="scrollAnimated"  id="telefono2B">
                   
-                  <img style="width:92.5%;
-                              margin-left:7.5%;
-                              position:relative;
-                              z-index:100;" 
-                              src="img/web_lado_b.png" alt="" 
-                              class="animated">
+                  <img  src="img/web_lado_b.png" alt="" 
+                   class="scrollAnimated" id="pantallaB">
               </div>
 			        </div>
 			</div></div>
@@ -159,8 +119,8 @@
 			</div>
 			<div class="row" style="padding-bottom: 70px;">
 				<div class="four columns">
-					<div class="projectThumb" style="width:100%;">
-						<img src="/img/thumb_prizeeker.jpg">
+					<div class="scrollAnimated projectThumb" style="width:100%;">
+						<img src="img/thumb_prizeeker.jpg">
 						<div class="cover">
 							<p>Prizeeker</p>
 							<span>Una red de promociones para el movil</span>
@@ -170,8 +130,8 @@
 				</div>
 
 				<div class="four columns">
-					<div class="projectThumb" style="width:100%;">
-						<img src="/img/thumb_palcentro.jpg">
+					<div class="scrollAnimated projectThumb" style="width:100%;">
+						<img src="img/thumb_palcentro.jpg">
 						<div class="cover">
 							<p>Palcentro</p>
 							<span>Compra en el centro sin salir de casa</span>
@@ -181,8 +141,8 @@
 				</div>
 
 				<div class="four columns">
-					<div class="projectThumb" style="width:100%;">
-						<img src="/img/thumb_sorteando.jpg">
+					<div class="scrollAnimated projectThumb" style="width:100%;">
+						<img src="img/thumb_sorteando.jpg">
 						<div class="cover">
 							<p>Sorteando y ganando</p>
 							<span>Una comunidad de sorteos online</span>
@@ -256,8 +216,44 @@
                         window.location.hash = target;
                     });
                 });
+              $window = $(window);
+              $elements = $('.scrollAnimated');
+              $(window).on('scroll resize', checkScrolling);  
           });
 
+
+          function checkScrolling(){
+            var windowHeight = $window.height();
+            var windowTopPosition = $window.scrollTop();
+            var windowBottomPosition = (windowTopPosition + windowHeight);
+          
+           $.each($elements, function(){
+              var $element = $(this);
+              var height = $element.outerHeight();
+              var topPosition = $element.offset().top;
+              var bottomPosition = (height+topPosition);
+              var middle = topPosition+(height/2)
+              if( middle>=windowTopPosition && middle<=windowBottomPosition){
+                $element.addClass('in-view');
+              }else{
+                $element.removeClass('in-view');
+              }
+           });
+          }
+
+          /*
+           var $element = $(this);
+              var height = $element.outerHeight();
+              var topPosition = $element.offset().top;
+              var bottomPosition = (height+topPosition);
+
+              if((topPosition>=windowTopPosition-100)&&(topPosition<=windowBottomPosition)){
+                $element.addClass('in-view');
+              }else{
+                $element.removeClass('in-view');
+              }
+          */
+          
         </script>
 </body>
 </html>
