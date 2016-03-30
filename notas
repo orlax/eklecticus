@@ -1,0 +1,1179 @@
+Android application is debugging.
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Droid.dll
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.DTO.dll
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Pz.dll
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/FormsViewGroup.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.AspNet.SignalR.Client.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.Extensions.dll [External]
+03-07 15:38:46.914 I/art     (28380): Late-enabling -Xcheck:jni
+03-07 15:38:47.074 W/monodroid(28380): Using override path: /data/data/eklecticus.mobile.droid/files/.__override__
+03-07 15:38:47.074 W/monodroid(28380): Using override path: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__
+03-07 15:38:47.076 W/monodroid(28380): Trying to load sgen from: /data/data/eklecticus.mobile.droid/files/.__override__/libmonosgen-2.0.so
+03-07 15:38:47.076 W/monodroid(28380): Trying to load sgen from: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/libmonosgen-2.0.so
+03-07 15:38:47.076 W/monodroid(28380): Trying to load sgen from: /data/app/eklecticus.mobile.droid-1/lib/arm/libmonosgen-2.0.so
+03-07 15:38:47.078 W/monodroid(28380): Trying to load sgen from: /data/data/eklecticus.mobile.droid/files/.__override__/links/libmonosgen-2.0.so
+03-07 15:38:47.083 W/monodroid-debug(28380): Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:8979,server=y,embedding=1
+03-07 15:38:47.085 W/monodroid-debug(28380): Accepted stdout connection: 22
+03-07 15:38:47.865 D/Mono    (28380): Image addref mscorlib[0xb8f1aa10] -> mscorlib.dll[0xb8f28360]: 1
+03-07 15:38:47.866 D/Mono    (28380): AOT module 'mscorlib.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-mscorlib.dll.so" not found
+03-07 15:38:47.895 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/mscorlib.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-mscorlib.dll.so" not found
+03-07 15:38:47.931 D/Mono    (28380): Unloading image data-0xa0584008 [0xb8f28c50].
+03-07 15:38:47.995 D/Mono    (28380): Assembly mscorlib[0xb8f1aa10] added to domain RootDomain, ref_count=1
+03-07 15:38:48.101 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Droid.dll'.
+03-07 15:38:48.108 D/Mono    (28380): Image addref Eklecticus.Mobile.Droid[0xb8f68618] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Droid.dll[0xb8f67aa8]: 2
+03-07 15:38:48.108 D/Mono    (28380): Assembly Eklecticus.Mobile.Droid[0xb8f68618] added to domain RootDomain, ref_count=1
+03-07 15:38:48.110 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Droid.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Eklecticus.Mobile.Droid.dll.so" not found
+03-07 15:38:48.112 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Eklecticus.Mobile.Droid.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Eklecticus.Mobile.Droid.dll.so" not found
+03-07 15:38:48.112 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Droid.dll'.
+03-07 15:38:48.112 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Droid.dll.config'.
+03-07 15:38:48.112 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Eklecticus.Mobile.Droid/Eklecticus.Mobile.Droid.config'.
+03-07 15:38:48.113 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.DTO.dll'.
+03-07 15:38:48.114 D/Mono    (28380): Image addref Eklecticus.DTO[0xb8f69628] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.DTO.dll[0xb8f68980]: 2
+03-07 15:38:48.114 D/Mono    (28380): Assembly Eklecticus.DTO[0xb8f69628] added to domain RootDomain, ref_count=1
+03-07 15:38:48.116 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.DTO.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Eklecticus.DTO.dll.so" not found
+03-07 15:38:48.117 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Eklecticus.DTO.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Eklecticus.DTO.dll.so" not found
+03-07 15:38:48.117 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.DTO.dll'.
+03-07 15:38:48.118 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.DTO.dll.config'.
+03-07 15:38:48.118 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Eklecticus.DTO/Eklecticus.DTO.config'.
+03-07 15:38:48.118 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Pz.dll'.
+03-07 15:38:48.119 D/Mono    (28380): Image addref Eklecticus.Mobile.Pz[0xb8f6a660] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Pz.dll[0xb8f69980]: 2
+03-07 15:38:48.120 D/Mono    (28380): Assembly Eklecticus.Mobile.Pz[0xb8f6a660] added to domain RootDomain, ref_count=1
+03-07 15:38:48.124 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Pz.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Eklecticus.Mobile.Pz.dll.so" not found
+03-07 15:38:48.128 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Eklecticus.Mobile.Pz.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Eklecticus.Mobile.Pz.dll.so" not found
+03-07 15:38:48.128 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Pz.dll'.
+03-07 15:38:48.128 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Eklecticus.Mobile.Pz.dll.config'.
+03-07 15:38:48.128 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Eklecticus.Mobile.Pz/Eklecticus.Mobile.Pz.config'.
+03-07 15:38:48.128 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/FormsViewGroup.dll'.
+03-07 15:38:48.129 D/Mono    (28380): Image addref FormsViewGroup[0xb8f6b678] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/FormsViewGroup.dll[0xb8f6a9b8]: 2
+03-07 15:38:48.129 D/Mono    (28380): Assembly FormsViewGroup[0xb8f6b678] added to domain RootDomain, ref_count=1
+03-07 15:38:48.130 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/FormsViewGroup.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-FormsViewGroup.dll.so" not found
+03-07 15:38:48.131 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/FormsViewGroup.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-FormsViewGroup.dll.so" not found
+03-07 15:38:48.131 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/FormsViewGroup.dll'.
+03-07 15:38:48.131 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/FormsViewGroup.dll.config'.
+03-07 15:38:48.131 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/FormsViewGroup/FormsViewGroup.config'.
+03-07 15:38:48.132 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.AspNet.SignalR.Client.dll'.
+03-07 15:38:48.132 D/Mono    (28380): Image addref Microsoft.AspNet.SignalR.Client[0xb8f6c588] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.AspNet.SignalR.Client.dll[0xb8f6b8b8]: 2
+03-07 15:38:48.132 D/Mono    (28380): Assembly Microsoft.AspNet.SignalR.Client[0xb8f6c588] added to domain RootDomain, ref_count=1
+03-07 15:38:48.134 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.AspNet.SignalR.Client.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Microsoft.AspNet.SignalR.Client.dll.so" not found
+03-07 15:38:48.134 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Microsoft.AspNet.SignalR.Client.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Microsoft.AspNet.SignalR.Client.dll.so" not found
+03-07 15:38:48.135 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.AspNet.SignalR.Client.dll'.
+03-07 15:38:48.135 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.AspNet.SignalR.Client.dll.config'.
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll [External]
+03-07 15:38:48.135 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Microsoft.AspNet.SignalR.Client/Microsoft.AspNet.SignalR.Client.config'.
+03-07 15:38:48.135 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.dll'.
+03-07 15:38:48.136 D/Mono    (28380): Image addref Microsoft.Threading.Tasks[0xb8f6d480] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.dll[0xb8f6c7d0]: 2
+03-07 15:38:48.136 D/Mono    (28380): Assembly Microsoft.Threading.Tasks[0xb8f6d480] added to domain RootDomain, ref_count=1
+03-07 15:38:48.137 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Microsoft.Threading.Tasks.dll.so" not found
+03-07 15:38:48.137 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Microsoft.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Microsoft.Threading.Tasks.dll.so" not found
+03-07 15:38:48.137 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.dll'.
+03-07 15:38:48.138 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.dll.config'.
+03-07 15:38:48.138 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Microsoft.Threading.Tasks/Microsoft.Threading.Tasks.config'.
+03-07 15:38:48.138 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.Extensions.dll'.
+03-07 15:38:48.138 D/Mono    (28380): Image addref Microsoft.Threading.Tasks.Extensions[0xb8f6e3b8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.Extensions.dll[0xb8f6d730]: 2
+03-07 15:38:48.139 D/Mono    (28380): Assembly Microsoft.Threading.Tasks.Extensions[0xb8f6e3b8] added to domain RootDomain, ref_count=1
+03-07 15:38:48.139 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Microsoft.Threading.Tasks.Extensions.dll.so" not found
+03-07 15:38:48.140 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Microsoft.Threading.Tasks.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Microsoft.Threading.Tasks.Extensions.dll.so" not found
+03-07 15:38:48.140 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.Extensions.dll'.
+03-07 15:38:48.140 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Microsoft.Threading.Tasks.Extensions.dll.config'.
+03-07 15:38:48.141 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Microsoft.Threading.Tasks.Extensions/Microsoft.Threading.Tasks.Extensions.config'.
+03-07 15:38:48.141 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll'.
+03-07 15:38:48.141 D/Mono    (28380): Image addref Newtonsoft.Json[0xb8f6f250] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll[0xb8f6e5c0]: 2
+03-07 15:38:48.141 D/Mono    (28380): Assembly Newtonsoft.Json[0xb8f6f250] added to domain RootDomain, ref_count=1
+03-07 15:38:48.142 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Newtonsoft.Json.dll.so" not found
+03-07 15:38:48.143 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Newtonsoft.Json.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Newtonsoft.Json.dll.so" not found
+03-07 15:38:48.143 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll'.
+03-07 15:38:48.144 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll.config'.
+03-07 15:38:48.144 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Newtonsoft.Json/Newtonsoft.Json.config'.
+03-07 15:38:48.144 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/PCLCrypto.dll'.
+03-07 15:38:48.145 D/Mono    (28380): Image addref PCLCrypto[0xb8f70100] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/PCLCrypto.dll[0xb8f6f430]: 2
+03-07 15:38:48.145 D/Mono    (28380): Assembly PCLCrypto[0xb8f70100] added to domain RootDomain, ref_count=1
+03-07 15:38:48.146 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/PCLCrypto.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-PCLCrypto.dll.so" not found
+03-07 15:38:48.147 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/PCLCrypto.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-PCLCrypto.dll.so" not found
+03-07 15:38:48.147 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/PCLCrypto.dll'.
+03-07 15:38:48.147 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/PCLCrypto.dll.config'.
+03-07 15:38:48.147 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/PCLCrypto/PCLCrypto.config'.
+03-07 15:38:48.147 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.Abstractions.dll'.
+03-07 15:38:48.148 D/Mono    (28380): Image addref Plugin.Share.Abstractions[0xb8f71008] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.Abstractions.dll[0xb8f70390]: 2
+03-07 15:38:48.148 D/Mono    (28380): Assembly Plugin.Share.Abstractions[0xb8f71008] added to domain RootDomain, ref_count=1
+03-07 15:38:48.149 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.Abstractions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Plugin.Share.Abstractions.dll.so" not found
+03-07 15:38:48.150 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Plugin.Share.Abstractions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Plugin.Share.Abstractions.dll.so" not found
+03-07 15:38:48.150 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.Abstractions.dll'.
+03-07 15:38:48.150 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.Abstractions.dll.config'.
+03-07 15:38:48.150 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Plugin.Share.Abstractions/Plugin.Share.Abstractions.config'.
+03-07 15:38:48.150 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.dll'.
+03-07 15:38:48.151 D/Mono    (28380): Image addref Plugin.Share[0xb8f72028] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.dll[0xb8f71370]: 2
+03-07 15:38:48.151 D/Mono    (28380): Assembly Plugin.Share[0xb8f72028] added to domain RootDomain, ref_count=1
+03-07 15:38:48.152 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Plugin.Share.dll.so" not found
+03-07 15:38:48.153 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Plugin.Share.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Plugin.Share.dll.so" not found
+03-07 15:38:48.153 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.dll'.
+03-07 15:38:48.153 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.dll.config'.
+03-07 15:38:48.153 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Plugin.Share/Plugin.Share.config'.
+03-07 15:38:48.154 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.dll'.
+03-07 15:38:48.154 D/Mono    (28380): Image addref SQLite.Net[0xb8f73018] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.dll[0xb8f72348]: 2
+03-07 15:38:48.154 D/Mono    (28380): Assembly SQLite.Net[0xb8f73018] added to domain RootDomain, ref_count=1
+03-07 15:38:48.155 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-SQLite.Net.dll.so" not found
+03-07 15:38:48.156 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/SQLite.Net.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-SQLite.Net.dll.so" not found
+03-07 15:38:48.156 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.dll'.
+03-07 15:38:48.156 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.dll.config'.
+03-07 15:38:48.156 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/SQLite.Net/SQLite.Net.config'.
+03-07 15:38:48.156 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.Platform.XamarinAndroid.dll'.
+03-07 15:38:48.157 D/Mono    (28380): Image addref SQLite.Net.Platform.XamarinAndroid[0xb8f73f78] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.Platform.XamarinAndroid.dll[0xb8f73288]: 2
+03-07 15:38:48.157 D/Mono    (28380): Assembly SQLite.Net.Platform.XamarinAndroid[0xb8f73f78] added to domain RootDomain, ref_count=1
+03-07 15:38:48.158 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.Platform.XamarinAndroid.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-SQLite.Net.Platform.XamarinAndroid.dll.so" not found
+03-07 15:38:48.159 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/SQLite.Net.Platform.XamarinAndroid.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-SQLite.Net.Platform.XamarinAndroid.dll.so" not found
+03-07 15:38:48.159 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.Platform.XamarinAndroid.dll'.
+03-07 15:38:48.159 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.Platform.XamarinAndroid.dll.config'.
+03-07 15:38:48.159 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/SQLite.Net.Platform.XamarinAndroid/SQLite.Net.Platform.XamarinAndroid.config'.
+03-07 15:38:48.159 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Extensions.dll'.
+03-07 15:38:48.160 D/Mono    (28380): Image addref System.Net.Http.Extensions[0xb8f74e68] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Extensions.dll[0xb8f74238]: 2
+03-07 15:38:48.160 D/Mono    (28380): Assembly System.Net.Http.Extensions[0xb8f74e68] added to domain RootDomain, ref_count=1
+03-07 15:38:48.161 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.Extensions.dll.so" not found
+03-07 15:38:48.162 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.Http.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.Extensions.dll.so" not found
+03-07 15:38:48.162 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Extensions.dll'.
+03-07 15:38:48.162 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Extensions.dll.config'.
+03-07 15:38:48.162 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Net.Http.Extensions/System.Net.Http.Extensions.config'.
+03-07 15:38:48.163 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Primitives.dll'.
+03-07 15:38:48.163 D/Mono    (28380): Image addref System.Net.Http.Primitives[0xb8f75d58] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Primitives.dll[0xb8f750e0]: 2
+03-07 15:38:48.163 D/Mono    (28380): Assembly System.Net.Http.Primitives[0xb8f75d58] added to domain RootDomain, ref_count=1
+03-07 15:38:48.164 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Primitives.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.Primitives.dll.so" not found
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/PCLCrypto.dll [External]
+03-07 15:38:48.165 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.Http.Primitives.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.Primitives.dll.so" not found
+03-07 15:38:48.165 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Primitives.dll'.
+03-07 15:38:48.165 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Primitives.dll.config'.
+03-07 15:38:48.165 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Net.Http.Primitives/System.Net.Http.Primitives.config'.
+03-07 15:38:48.166 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Validation.dll'.
+03-07 15:38:48.166 D/Mono    (28380): Image addref Validation[0xb8f76c00] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Validation.dll[0xb8f75f38]: 2
+03-07 15:38:48.166 D/Mono    (28380): Assembly Validation[0xb8f76c00] added to domain RootDomain, ref_count=1
+03-07 15:38:48.167 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Validation.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Validation.dll.so" not found
+03-07 15:38:48.168 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Validation.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Validation.dll.so" not found
+03-07 15:38:48.168 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Validation.dll'.
+03-07 15:38:48.168 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Validation.dll.config'.
+03-07 15:38:48.168 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Validation/Validation.config'.
+03-07 15:38:48.169 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.Design.dll'.
+03-07 15:38:48.169 D/Mono    (28380): Image addref Xamarin.Android.Support.Design[0xb8f77b20] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.Design.dll[0xb8f76ea8]: 2
+03-07 15:38:48.169 D/Mono    (28380): Assembly Xamarin.Android.Support.Design[0xb8f77b20] added to domain RootDomain, ref_count=1
+03-07 15:38:48.170 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.Design.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.Design.dll.so" not found
+03-07 15:38:48.171 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Android.Support.Design.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.Design.dll.so" not found
+03-07 15:38:48.171 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.Design.dll'.
+03-07 15:38:48.171 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.Design.dll.config'.
+03-07 15:38:48.171 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Android.Support.Design/Xamarin.Android.Support.Design.config'.
+03-07 15:38:48.172 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v4.dll'.
+03-07 15:38:48.172 D/Mono    (28380): Image addref Xamarin.Android.Support.v4[0xb8f78a50] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v4.dll[0xb8f77db8]: 2
+03-07 15:38:48.172 D/Mono    (28380): Assembly Xamarin.Android.Support.v4[0xb8f78a50] added to domain RootDomain, ref_count=1
+03-07 15:38:48.173 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v4.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.v4.dll.so" not found
+03-07 15:38:48.174 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Android.Support.v4.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.v4.dll.so" not found
+03-07 15:38:48.174 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v4.dll'.
+03-07 15:38:48.174 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v4.dll.config'.
+03-07 15:38:48.174 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Android.Support.v4/Xamarin.Android.Support.v4.config'.
+03-07 15:38:48.175 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll'.
+03-07 15:38:48.175 D/Mono    (28380): Image addref Xamarin.Android.Support.v7.AppCompat[0xb8f79998] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll[0xb8f78d38]: 2
+03-07 15:38:48.175 D/Mono    (28380): Assembly Xamarin.Android.Support.v7.AppCompat[0xb8f79998] added to domain RootDomain, ref_count=1
+03-07 15:38:48.176 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.v7.AppCompat.dll.so" not found
+03-07 15:38:48.177 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Android.Support.v7.AppCompat.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.v7.AppCompat.dll.so" not found
+03-07 15:38:48.177 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll'.
+03-07 15:38:48.177 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll.config'.
+03-07 15:38:48.177 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Android.Support.v7.AppCompat/Xamarin.Android.Support.v7.AppCompat.config'.
+03-07 15:38:48.177 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.CardView.dll'.
+03-07 15:38:48.178 D/Mono    (28380): Image addref Xamarin.Android.Support.v7.CardView[0xb8f7a9c8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.CardView.dll[0xb8f79c60]: 2
+03-07 15:38:48.178 D/Mono    (28380): Assembly Xamarin.Android.Support.v7.CardView[0xb8f7a9c8] added to domain RootDomain, ref_count=1
+03-07 15:38:48.180 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.CardView.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.v7.CardView.dll.so" not found
+03-07 15:38:48.180 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Android.Support.v7.CardView.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.v7.CardView.dll.so" not found
+03-07 15:38:48.181 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.CardView.dll'.
+03-07 15:38:48.181 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.CardView.dll.config'.
+03-07 15:38:48.181 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Android.Support.v7.CardView/Xamarin.Android.Support.v7.CardView.config'.
+03-07 15:38:48.181 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll'.
+03-07 15:38:48.182 D/Mono    (28380): Image addref Xamarin.Android.Support.v7.MediaRouter[0xb8f7b8c0] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll[0xb8f7ac80]: 2
+03-07 15:38:48.182 D/Mono    (28380): Assembly Xamarin.Android.Support.v7.MediaRouter[0xb8f7b8c0] added to domain RootDomain, ref_count=1
+03-07 15:38:48.182 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.v7.MediaRouter.dll.so" not found
+03-07 15:38:48.184 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Android.Support.v7.MediaRouter.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Android.Support.v7.MediaRouter.dll.so" not found
+03-07 15:38:48.184 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll'.
+03-07 15:38:48.184 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll.config'.
+03-07 15:38:48.184 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Android.Support.v7.MediaRouter/Xamarin.Android.Support.v7.MediaRouter.config'.
+03-07 15:38:48.185 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Auth.Android.dll'.
+03-07 15:38:48.185 D/Mono    (28380): Image addref Xamarin.Auth.Android[0xb8f7c798] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Auth.Android.dll[0xb8f7baa0]: 2
+03-07 15:38:48.185 D/Mono    (28380): Assembly Xamarin.Auth.Android[0xb8f7c798] added to domain RootDomain, ref_count=1
+03-07 15:38:48.186 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Auth.Android.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Auth.Android.dll.so" not found
+03-07 15:38:48.187 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Auth.Android.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Auth.Android.dll.so" not found
+03-07 15:38:48.187 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Auth.Android.dll'.
+03-07 15:38:48.187 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Auth.Android.dll.config'.
+03-07 15:38:48.187 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Auth.Android/Xamarin.Auth.Android.config'.
+03-07 15:38:48.188 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Core.dll'.
+03-07 15:38:48.188 D/Mono    (28380): Image addref Xamarin.Forms.Core[0xb8f7d650] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Core.dll[0xb8f7c988]: 2
+03-07 15:38:48.188 D/Mono    (28380): Assembly Xamarin.Forms.Core[0xb8f7d650] added to domain RootDomain, ref_count=1
+03-07 15:38:48.189 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Core.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Core.dll.so" not found
+03-07 15:38:48.190 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Forms.Core.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Core.dll.so" not found
+03-07 15:38:48.190 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Core.dll'.
+03-07 15:38:48.190 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Core.dll.config'.
+03-07 15:38:48.190 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Forms.Core/Xamarin.Forms.Core.config'.
+03-07 15:38:48.190 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.Android.dll'.
+03-07 15:38:48.191 D/Mono    (28380): Image addref Xamarin.Forms.Maps.Android[0xb8f7e558] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.Android.dll[0xb8f7d930]: 2
+03-07 15:38:48.191 D/Mono    (28380): Assembly Xamarin.Forms.Maps.Android[0xb8f7e558] added to domain RootDomain, ref_count=1
+03-07 15:38:48.192 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.Android.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Maps.Android.dll.so" not found
+03-07 15:38:48.193 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Forms.Maps.Android.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Maps.Android.dll.so" not found
+03-07 15:38:48.193 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.Android.dll'.
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.Abstractions.dll [External]
+03-07 15:38:48.193 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.Android.dll.config'.
+03-07 15:38:48.193 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Forms.Maps.Android/Xamarin.Forms.Maps.Android.config'.
+03-07 15:38:48.193 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.dll'.
+03-07 15:38:48.194 D/Mono    (28380): Image addref Xamarin.Forms.Maps[0xb8f7f420] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.dll[0xb8f7e7d0]: 2
+03-07 15:38:48.194 D/Mono    (28380): Assembly Xamarin.Forms.Maps[0xb8f7f420] added to domain RootDomain, ref_count=1
+03-07 15:38:48.195 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Maps.dll.so" not found
+03-07 15:38:48.196 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Forms.Maps.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Maps.dll.so" not found
+03-07 15:38:48.197 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.dll'.
+03-07 15:38:48.197 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.dll.config'.
+03-07 15:38:48.197 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Forms.Maps/Xamarin.Forms.Maps.config'.
+03-07 15:38:48.197 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.Android.dll'.
+03-07 15:38:48.198 D/Mono    (28380): Image addref Xamarin.Forms.Platform.Android[0xb8f80340] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.Android.dll[0xb8f7f730]: 2
+03-07 15:38:48.198 D/Mono    (28380): Assembly Xamarin.Forms.Platform.Android[0xb8f80340] added to domain RootDomain, ref_count=1
+03-07 15:38:48.199 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.Android.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Platform.Android.dll.so" not found
+03-07 15:38:48.199 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Forms.Platform.Android.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Platform.Android.dll.so" not found
+03-07 15:38:48.200 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.Android.dll'.
+03-07 15:38:48.200 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.Android.dll.config'.
+03-07 15:38:48.200 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Forms.Platform.Android/Xamarin.Forms.Platform.Android.config'.
+03-07 15:38:48.200 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.dll'.
+03-07 15:38:48.201 D/Mono    (28380): Image addref Xamarin.Forms.Platform[0xb8f81228] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.dll[0xb8f805e0]: 2
+03-07 15:38:48.201 D/Mono    (28380): Assembly Xamarin.Forms.Platform[0xb8f81228] added to domain RootDomain, ref_count=1
+03-07 15:38:48.202 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Platform.dll.so" not found
+03-07 15:38:48.202 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Forms.Platform.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Platform.dll.so" not found
+03-07 15:38:48.202 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.dll'.
+03-07 15:38:48.202 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.dll.config'.
+03-07 15:38:48.203 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Forms.Platform/Xamarin.Forms.Platform.config'.
+03-07 15:38:48.203 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Xaml.dll'.
+03-07 15:38:48.204 D/Mono    (28380): Image addref Xamarin.Forms.Xaml[0xb8f82108] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Xaml.dll[0xb8f814d0]: 2
+03-07 15:38:48.204 D/Mono    (28380): Assembly Xamarin.Forms.Xaml[0xb8f82108] added to domain RootDomain, ref_count=1
+03-07 15:38:48.204 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Xaml.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Xaml.dll.so" not found
+03-07 15:38:48.205 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.Forms.Xaml.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.Forms.Xaml.dll.so" not found
+03-07 15:38:48.205 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Xaml.dll'.
+03-07 15:38:48.205 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Xaml.dll.config'.
+03-07 15:38:48.206 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.Forms.Xaml/Xamarin.Forms.Xaml.config'.
+03-07 15:38:48.206 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Base.dll'.
+03-07 15:38:48.206 D/Mono    (28380): Image addref Xamarin.GooglePlayServices.Base[0xb8f83020] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Base.dll[0xb8f82448]: 2
+03-07 15:38:48.207 D/Mono    (28380): Assembly Xamarin.GooglePlayServices.Base[0xb8f83020] added to domain RootDomain, ref_count=1
+03-07 15:38:48.207 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Base.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.GooglePlayServices.Base.dll.so" not found
+03-07 15:38:48.208 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.GooglePlayServices.Base.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.GooglePlayServices.Base.dll.so" not found
+03-07 15:38:48.208 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Base.dll'.
+03-07 15:38:48.208 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Base.dll.config'.
+03-07 15:38:48.208 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.GooglePlayServices.Base/Xamarin.GooglePlayServices.Base.config'.
+03-07 15:38:48.209 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Maps.dll'.
+03-07 15:38:48.209 D/Mono    (28380): Image addref Xamarin.GooglePlayServices.Maps[0xb8f83f30] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Maps.dll[0xb8f832f8]: 2
+03-07 15:38:48.209 D/Mono    (28380): Assembly Xamarin.GooglePlayServices.Maps[0xb8f83f30] added to domain RootDomain, ref_count=1
+03-07 15:38:48.210 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Maps.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.GooglePlayServices.Maps.dll.so" not found
+03-07 15:38:48.211 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Xamarin.GooglePlayServices.Maps.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Xamarin.GooglePlayServices.Maps.dll.so" not found
+03-07 15:38:48.211 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Maps.dll'.
+03-07 15:38:48.211 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Maps.dll.config'.
+03-07 15:38:48.211 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/Xamarin.GooglePlayServices.Maps/Xamarin.GooglePlayServices.Maps.config'.
+03-07 15:38:48.212 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.Concurrent.dll'.
+03-07 15:38:48.212 D/Mono    (28380): Image addref System.Collections.Concurrent[0xb8f84e48] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.Concurrent.dll[0xb8f84218]: 2
+03-07 15:38:48.212 D/Mono    (28380): Assembly System.Collections.Concurrent[0xb8f84e48] added to domain RootDomain, ref_count=1
+03-07 15:38:48.214 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Collections.Concurrent.dll.so" not found
+03-07 15:38:48.215 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Collections.Concurrent.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Collections.Concurrent.dll.so" not found
+03-07 15:38:48.215 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.Concurrent.dll'.
+03-07 15:38:48.215 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.Concurrent.dll.config'.
+03-07 15:38:48.216 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Collections.Concurrent/System.Collections.Concurrent.config'.
+03-07 15:38:48.216 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.dll'.
+03-07 15:38:48.216 D/Mono    (28380): Image addref System.Collections[0xb8f85d10] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.dll[0xb8f85130]: 2
+03-07 15:38:48.216 D/Mono    (28380): Assembly System.Collections[0xb8f85d10] added to domain RootDomain, ref_count=1
+03-07 15:38:48.217 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Collections.dll.so" not found
+03-07 15:38:48.218 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Collections.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Collections.dll.so" not found
+03-07 15:38:48.218 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.dll'.
+03-07 15:38:48.218 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.dll.config'.
+03-07 15:38:48.218 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Collections/System.Collections.config'.
+03-07 15:38:48.219 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.Annotations.dll'.
+03-07 15:38:48.219 D/Mono    (28380): Image addref System.ComponentModel.Annotations[0xb8f86c38] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.Annotations.dll[0xb8f86018]: 2
+03-07 15:38:48.219 D/Mono    (28380): Assembly System.ComponentModel.Annotations[0xb8f86c38] added to domain RootDomain, ref_count=1
+03-07 15:38:48.220 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.Annotations.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ComponentModel.Annotations.dll.so" not found
+03-07 15:38:48.221 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ComponentModel.Annotations.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ComponentModel.Annotations.dll.so" not found
+03-07 15:38:48.221 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.Annotations.dll'.
+03-07 15:38:48.221 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.Annotations.dll.config'.
+03-07 15:38:48.221 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ComponentModel.Annotations/System.ComponentModel.Annotations.config'.
+03-07 15:38:48.222 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.dll'.
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Plugin.Share.dll [External]
+03-07 15:38:48.222 D/Mono    (28380): Image addref System.ComponentModel[0xb8f87ba8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.dll[0xb8f86ed8]: 2
+03-07 15:38:48.222 D/Mono    (28380): Assembly System.ComponentModel[0xb8f87ba8] added to domain RootDomain, ref_count=1
+03-07 15:38:48.223 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ComponentModel.dll.so" not found
+03-07 15:38:48.224 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ComponentModel.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ComponentModel.dll.so" not found
+03-07 15:38:48.224 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.dll'.
+03-07 15:38:48.224 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.dll.config'.
+03-07 15:38:48.224 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ComponentModel/System.ComponentModel.config'.
+03-07 15:38:48.225 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll'.
+03-07 15:38:48.225 D/Mono    (28380): Image addref System.ComponentModel.EventBasedAsync[0xb8f88ae8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll[0xb8f87f60]: 2
+03-07 15:38:48.225 D/Mono    (28380): Assembly System.ComponentModel.EventBasedAsync[0xb8f88ae8] added to domain RootDomain, ref_count=1
+03-07 15:38:48.226 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ComponentModel.EventBasedAsync.dll.so" not found
+03-07 15:38:48.227 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ComponentModel.EventBasedAsync.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ComponentModel.EventBasedAsync.dll.so" not found
+03-07 15:38:48.227 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll'.
+03-07 15:38:48.227 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll.config'.
+03-07 15:38:48.227 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ComponentModel.EventBasedAsync/System.ComponentModel.EventBasedAsync.config'.
+03-07 15:38:48.228 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Contracts.dll'.
+03-07 15:38:48.228 D/Mono    (28380): Image addref System.Diagnostics.Contracts[0xb8f899e0] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Contracts.dll[0xb8f88da8]: 2
+03-07 15:38:48.228 D/Mono    (28380): Assembly System.Diagnostics.Contracts[0xb8f899e0] added to domain RootDomain, ref_count=1
+03-07 15:38:48.229 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Contracts.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Diagnostics.Contracts.dll.so" not found
+03-07 15:38:48.230 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Diagnostics.Contracts.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Diagnostics.Contracts.dll.so" not found
+03-07 15:38:48.231 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Contracts.dll'.
+03-07 15:38:48.231 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Contracts.dll.config'.
+03-07 15:38:48.231 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Diagnostics.Contracts/System.Diagnostics.Contracts.config'.
+03-07 15:38:48.231 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Debug.dll'.
+03-07 15:38:48.232 D/Mono    (28380): Image addref System.Diagnostics.Debug[0xb8f8a8d0] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Debug.dll[0xb8f89cb0]: 2
+03-07 15:38:48.232 D/Mono    (28380): Assembly System.Diagnostics.Debug[0xb8f8a8d0] added to domain RootDomain, ref_count=1
+03-07 15:38:48.233 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Debug.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Diagnostics.Debug.dll.so" not found
+03-07 15:38:48.233 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Diagnostics.Debug.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Diagnostics.Debug.dll.so" not found
+03-07 15:38:48.234 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Debug.dll'.
+03-07 15:38:48.234 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Debug.dll.config'.
+03-07 15:38:48.234 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Diagnostics.Debug/System.Diagnostics.Debug.config'.
+03-07 15:38:48.234 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tools.dll'.
+03-07 15:38:48.235 D/Mono    (28380): Image addref System.Diagnostics.Tools[0xb8f8b7d8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tools.dll[0xb8f8ac20]: 2
+03-07 15:38:48.235 D/Mono    (28380): Assembly System.Diagnostics.Tools[0xb8f8b7d8] added to domain RootDomain, ref_count=1
+03-07 15:38:48.236 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tools.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Diagnostics.Tools.dll.so" not found
+03-07 15:38:48.236 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Diagnostics.Tools.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Diagnostics.Tools.dll.so" not found
+03-07 15:38:48.237 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tools.dll'.
+03-07 15:38:48.237 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tools.dll.config'.
+03-07 15:38:48.237 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Diagnostics.Tools/System.Diagnostics.Tools.config'.
+03-07 15:38:48.237 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tracing.dll'.
+03-07 15:38:48.238 D/Mono    (28380): Image addref System.Diagnostics.Tracing[0xb8f8c6d0] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tracing.dll[0xb8f8bb50]: 2
+03-07 15:38:48.238 D/Mono    (28380): Assembly System.Diagnostics.Tracing[0xb8f8c6d0] added to domain RootDomain, ref_count=1
+03-07 15:38:48.238 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tracing.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Diagnostics.Tracing.dll.so" not found
+03-07 15:38:48.239 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Diagnostics.Tracing.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Diagnostics.Tracing.dll.so" not found
+03-07 15:38:48.239 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tracing.dll'.
+03-07 15:38:48.239 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tracing.dll.config'.
+03-07 15:38:48.240 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Diagnostics.Tracing/System.Diagnostics.Tracing.config'.
+03-07 15:38:48.240 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Dynamic.Runtime.dll'.
+03-07 15:38:48.240 D/Mono    (28380): Image addref System.Dynamic.Runtime[0xb8f8d5b8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Dynamic.Runtime.dll[0xb8f8c9d0]: 2
+03-07 15:38:48.240 D/Mono    (28380): Assembly System.Dynamic.Runtime[0xb8f8d5b8] added to domain RootDomain, ref_count=1
+03-07 15:38:48.241 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Dynamic.Runtime.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Dynamic.Runtime.dll.so" not found
+03-07 15:38:48.242 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Dynamic.Runtime.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Dynamic.Runtime.dll.so" not found
+03-07 15:38:48.242 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Dynamic.Runtime.dll'.
+03-07 15:38:48.242 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Dynamic.Runtime.dll.config'.
+03-07 15:38:48.242 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Dynamic.Runtime/System.Dynamic.Runtime.config'.
+03-07 15:38:48.243 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Globalization.dll'.
+03-07 15:38:48.244 D/Mono    (28380): Image addref System.Globalization[0xb8f8e4a0] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Globalization.dll[0xb8f8d8c8]: 2
+03-07 15:38:48.244 D/Mono    (28380): Assembly System.Globalization[0xb8f8e4a0] added to domain RootDomain, ref_count=1
+03-07 15:38:48.245 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Globalization.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Globalization.dll.so" not found
+03-07 15:38:48.246 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Globalization.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Globalization.dll.so" not found
+03-07 15:38:48.246 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Globalization.dll'.
+03-07 15:38:48.246 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Globalization.dll.config'.
+03-07 15:38:48.246 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Globalization/System.Globalization.config'.
+03-07 15:38:48.246 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.IO.dll'.
+03-07 15:38:48.247 D/Mono    (28380): Image addref System.IO[0xb8f8f438] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.IO.dll[0xb8f8e788]: 2
+03-07 15:38:48.247 D/Mono    (28380): Assembly System.IO[0xb8f8f438] added to domain RootDomain, ref_count=1
+03-07 15:38:48.248 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.IO.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.IO.dll.so" not found
+03-07 15:38:48.249 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.IO.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.IO.dll.so" not found
+03-07 15:38:48.249 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.IO.dll'.
+03-07 15:38:48.249 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.IO.dll.config'.
+03-07 15:38:48.250 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.IO/System.IO.config'.
+03-07 15:38:48.250 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.dll'.
+03-07 15:38:48.250 D/Mono    (28380): Image addref System.Linq[0xb8f90310] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.dll[0xb8f8f680]: 2
+03-07 15:38:48.251 D/Mono    (28380): Assembly System.Linq[0xb8f90310] added to domain RootDomain, ref_count=1
+03-07 15:38:48.251 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Linq.dll.so" not found
+03-07 15:38:48.252 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Linq.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Linq.dll.so" not found
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.dll [External]
+03-07 15:38:48.252 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.dll'.
+03-07 15:38:48.252 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.dll.config'.
+03-07 15:38:48.252 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Linq/System.Linq.config'.
+03-07 15:38:48.253 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Expressions.dll'.
+03-07 15:38:48.253 D/Mono    (28380): Image addref System.Linq.Expressions[0xb8f91208] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Expressions.dll[0xb8f90748]: 2
+03-07 15:38:48.253 D/Mono    (28380): Assembly System.Linq.Expressions[0xb8f91208] added to domain RootDomain, ref_count=1
+03-07 15:38:48.254 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Expressions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Linq.Expressions.dll.so" not found
+03-07 15:38:48.255 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Linq.Expressions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Linq.Expressions.dll.so" not found
+03-07 15:38:48.256 W/logd    (28380): Dropped 4
+03-07 15:38:48.256 D/Mono    (28380): Image addref System.Linq.Parallel[0xb8f920f8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Parallel.dll[0xb8f91650]: 2
+03-07 15:38:48.258 W/logd    (28380): Dropped 2
+03-07 15:38:48.258 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Linq.Parallel.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Linq.Parallel.dll.so" not found
+03-07 15:38:48.259 W/logd    (28380): Dropped 4
+03-07 15:38:48.259 D/Mono    (28380): Image addref System.Linq.Queryable[0xb8f92ff0] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Queryable.dll[0xb8f92550]: 2
+03-07 15:38:48.260 W/logd    (28380): Dropped 1
+03-07 15:38:48.260 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Queryable.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Linq.Queryable.dll.so" not found
+03-07 15:38:48.261 W/logd    (28380): Dropped 1
+03-07 15:38:48.261 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Queryable.dll'.
+03-07 15:38:48.262 W/logd    (28380): Dropped 3
+03-07 15:38:48.262 D/Mono    (28380): Image addref System.Net.NetworkInformation[0xb8f93f08] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.NetworkInformation.dll[0xb8f93458]: 2
+03-07 15:38:48.264 W/logd    (28380): Dropped 2
+03-07 15:38:48.264 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.NetworkInformation.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.NetworkInformation.dll.so" not found
+03-07 15:38:48.265 W/logd    (28380): Dropped 2
+03-07 15:38:48.265 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Net.NetworkInformation/System.Net.NetworkInformation.config'.
+03-07 15:38:48.267 W/logd    (28380): Dropped 3
+03-07 15:38:48.267 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Primitives.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Primitives.dll.so" not found
+03-07 15:38:48.268 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.Primitives.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Primitives.dll.so" not found
+03-07 15:38:48.269 W/logd    (28380): Dropped 4
+03-07 15:38:48.269 D/Mono    (28380): Image addref System.Net.Requests[0xb8f95cc8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Requests.dll[0xb8f95268]: 2
+03-07 15:38:48.270 W/logd    (28380): Dropped 1
+03-07 15:38:48.270 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Requests.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Requests.dll.so" not found
+03-07 15:38:48.271 W/logd    (28380): Dropped 1
+03-07 15:38:48.271 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Requests.dll'.
+03-07 15:38:48.274 W/logd    (28380): Dropped 5
+03-07 15:38:48.274 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ObjectModel.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ObjectModel.dll.so" not found
+03-07 15:38:48.275 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ObjectModel.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ObjectModel.dll.so" not found
+03-07 15:38:48.282 W/logd    (28380): Dropped 15
+03-07 15:38:48.282 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Reflection.Emit.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Reflection.Emit.dll.so" not found
+03-07 15:38:48.285 W/logd    (28380): Dropped 6
+03-07 15:38:48.285 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Emit.ILGeneration.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Reflection.Emit.ILGeneration.dll.so" not found
+03-07 15:38:48.291 W/logd    (28380): Dropped 7
+03-07 15:38:48.291 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Emit.Lightweight.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Reflection.Emit.Lightweight.dll.so" not found
+03-07 15:38:48.299 W/logd    (28380): Dropped 8
+03-07 15:38:48.299 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Reflection.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Reflection.Extensions.dll.so" not found
+03-07 15:38:48.299 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Extensions.dll'.
+03-07 15:38:48.299 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Extensions.dll.config'.
+03-07 15:38:48.300 W/logd    (28380): Dropped 2
+03-07 15:38:48.300 D/Mono    (28380): Image addref System.Reflection.Primitives[0xb8f9c5d8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Primitives.dll[0xb8f9bbd0]: 2
+03-07 15:38:48.301 W/logd    (28380): Dropped 1
+03-07 15:38:48.301 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Primitives.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Reflection.Primitives.dll.so" not found
+03-07 15:38:48.302 W/logd    (28380): Dropped 1
+03-07 15:38:48.302 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Primitives.dll'.
+03-07 15:38:48.305 W/logd    (28380): Dropped 5
+03-07 15:38:48.305 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Resources.ResourceManager.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Resources.ResourceManager.dll.so" not found
+03-07 15:38:48.305 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Resources.ResourceManager.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Resources.ResourceManager.dll.so" not found
+03-07 15:38:48.307 W/logd    (28380): Dropped 4
+03-07 15:38:48.307 D/Mono    (28380): Image addref System.Runtime[0xb8f9e3a0] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.dll[0xb8f9da00]: 2
+03-07 15:38:48.308 W/logd    (28380): Dropped 1
+03-07 15:38:48.308 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.dll.so" not found
+03-07 15:38:48.309 W/logd    (28380): Dropped 1
+03-07 15:38:48.309 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.dll'.
+03-07 15:38:48.310 W/logd    (28380): Dropped 4
+03-07 15:38:48.310 D/Mono    (28380): Assembly System.Runtime.Extensions[0xb8f9f2a8] added to domain RootDomain, ref_count=1
+03-07 15:38:48.311 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.Extensions.dll.so" not found
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/SQLite.Net.Platform.XamarinAndroid.dll [External]
+03-07 15:38:48.311 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.Extensions.dll.so" not found
+03-07 15:38:48.312 W/logd    (28380): Dropped 3
+03-07 15:38:48.312 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.InteropServices.dll'.
+03-07 15:38:48.315 W/logd    (28380): Dropped 4
+03-07 15:38:48.315 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.InteropServices.dll'.
+03-07 15:38:48.317 W/logd    (28380): Dropped 5
+03-07 15:38:48.317 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.InteropServices.WindowsRuntime.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.InteropServices.WindowsRuntime.dll.so" not found
+03-07 15:38:48.318 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.InteropServices.WindowsRuntime.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.InteropServices.WindowsRuntime.dll.so" not found
+03-07 15:38:48.320 W/logd    (28380): Dropped 6
+03-07 15:38:48.320 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Numerics.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.Numerics.dll.so" not found
+03-07 15:38:48.321 W/logd    (28380): Dropped 1
+03-07 15:38:48.321 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Numerics.dll'.
+03-07 15:38:48.321 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Numerics.dll.config'.
+03-07 15:38:48.324 W/logd    (28380): Dropped 4
+03-07 15:38:48.324 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Serialization.Json.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.Serialization.Json.dll.so" not found
+03-07 15:38:48.324 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Serialization.Json.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.Serialization.Json.dll.so" not found
+03-07 15:38:48.326 W/logd    (28380): Dropped 4
+03-07 15:38:48.326 D/Mono    (28380): Image addref System.Runtime.Serialization.Primitives[0xb8fa3e38] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Serialization.Primitives.dll[0xb8fa3478]: 2
+03-07 15:38:48.327 W/logd    (28380): Dropped 1
+03-07 15:38:48.327 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Serialization.Primitives.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.Serialization.Primitives.dll.so" not found
+03-07 15:38:48.328 W/logd    (28380): Dropped 1
+03-07 15:38:48.328 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Serialization.Primitives.dll'.
+03-07 15:38:48.329 W/logd    (28380): Dropped 4
+03-07 15:38:48.329 D/Mono    (28380): Assembly System.Runtime.Serialization.Xml[0xb8fa4d40] added to domain RootDomain, ref_count=1
+03-07 15:38:48.330 W/logd    (28380): Dropped 1
+03-07 15:38:48.330 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Serialization.Xml.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.Serialization.Xml.dll.so" not found
+03-07 15:38:48.331 W/logd    (28380): Dropped 3
+03-07 15:38:48.331 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Security.Principal.dll'.
+03-07 15:38:48.332 D/Mono    (28380): Image addref System.Security.Principal[0xb8fa5d30] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Security.Principal.dll[0xb8fa52d8]: 2
+03-07 15:38:48.333 W/logd    (28380): Dropped 1
+03-07 15:38:48.333 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Security.Principal.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Security.Principal.dll.so" not found
+03-07 15:38:48.334 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Security.Principal.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Security.Principal.dll.so" not found
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Extensions.dll [External]
+03-07 15:38:48.335 W/logd    (28380): Dropped 4
+03-07 15:38:48.335 D/Mono    (28380): Image addref System.ServiceModel.Http[0xb8fa6c48] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Http.dll[0xb8fa62d8]: 2
+03-07 15:38:48.337 W/logd    (28380): Dropped 1
+03-07 15:38:48.337 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Http.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ServiceModel.Http.dll.so" not found
+03-07 15:38:48.338 W/logd    (28380): Dropped 1
+03-07 15:38:48.338 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Http.dll'.
+03-07 15:38:48.339 W/logd    (28380): Dropped 3
+03-07 15:38:48.339 D/Mono    (28380): Image addref System.ServiceModel.Primitives[0xb8fa7b48] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Primitives.dll[0xb8fa71f0]: 2
+03-07 15:38:48.340 W/logd    (28380): Dropped 2
+03-07 15:38:48.340 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.ServiceModel.Primitives.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ServiceModel.Primitives.dll.so" not found
+03-07 15:38:48.341 W/logd    (28380): Dropped 3
+03-07 15:38:48.341 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Security.dll'.
+03-07 15:38:48.343 W/logd    (28380): Dropped 2
+03-07 15:38:48.343 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Security.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ServiceModel.Security.dll.so" not found
+03-07 15:38:48.344 W/logd    (28380): Dropped 4
+03-07 15:38:48.344 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.Encoding.dll'.
+03-07 15:38:48.346 W/logd    (28380): Dropped 2
+03-07 15:38:48.346 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.Encoding.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Text.Encoding.dll.so" not found
+03-07 15:38:48.347 W/logd    (28380): Dropped 3
+03-07 15:38:48.347 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Text.Encoding/System.Text.Encoding.config'.
+03-07 15:38:48.353 W/logd    (28380): Dropped 3
+03-07 15:38:48.353 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.Encoding.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Text.Encoding.Extensions.dll.so" not found
+03-07 15:38:48.354 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Text.Encoding.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Text.Encoding.Extensions.dll.so" not found
+03-07 15:38:48.354 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.Encoding.Extensions.dll'.
+03-07 15:38:48.354 D/Mono    (28380): Config attempting to parse: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.Encoding.Extensions.dll.config'.
+03-07 15:38:48.354 W/logd    (28380): Dropped 1
+03-07 15:38:48.354 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.RegularExpressions.dll'.
+03-07 15:38:48.356 W/logd    (28380): Dropped 2
+03-07 15:38:48.356 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.RegularExpressions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Text.RegularExpressions.dll.so" not found
+03-07 15:38:48.357 W/logd    (28380): Dropped 1
+03-07 15:38:48.357 D/Mono    (28380): Assembly Loader loaded assembly from location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.RegularExpressions.dll'.
+03-07 15:38:48.359 W/logd    (28380): Dropped 5
+03-07 15:38:48.359 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Threading.dll.so" not found
+03-07 15:38:48.360 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Threading.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Threading.dll.so" not found
+03-07 15:38:48.361 W/logd    (28380): Dropped 4
+03-07 15:38:48.361 D/Mono    (28380): Image addref System.Threading.Tasks[0xb8fad4f8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Tasks.dll[0xb8facc10]: 2
+03-07 15:38:48.363 W/logd    (28380): Dropped 2
+03-07 15:38:48.363 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Threading.Tasks.dll.so" not found
+03-07 15:38:48.364 W/logd    (28380): Dropped 3
+03-07 15:38:48.364 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Tasks.Parallel.dll'.
+03-07 15:38:48.365 W/logd    (28380): Dropped 2
+03-07 15:38:48.365 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Tasks.Parallel.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Threading.Tasks.Parallel.dll.so" not found
+03-07 15:38:48.366 W/logd    (28380): Dropped 3
+03-07 15:38:48.366 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Threading.Tasks.Parallel/System.Threading.Tasks.Parallel.config'.
+03-07 15:38:48.368 W/logd    (28380): Dropped 3
+03-07 15:38:48.368 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Timer.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Threading.Timer.dll.so" not found
+03-07 15:38:48.370 W/logd    (28380): Dropped 4
+03-07 15:38:48.370 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Xml.ReaderWriter.dll'.
+03-07 15:38:48.371 W/logd    (28380): Dropped 2
+03-07 15:38:48.371 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Xml.ReaderWriter.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Xml.ReaderWriter.dll.so" not found
+03-07 15:38:48.372 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Xml.ReaderWriter.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Xml.ReaderWriter.dll.so" not found
+03-07 15:38:48.373 W/logd    (28380): Dropped 4
+03-07 15:38:48.373 D/Mono    (28380): Image addref System.Xml.XDocument[0xb8fb10c0] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Xml.XDocument.dll[0xb8fb0820]: 2
+03-07 15:38:48.375 W/logd    (28380): Dropped 2
+03-07 15:38:48.375 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Xml.XDocument.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Xml.XDocument.dll.so" not found
+03-07 15:38:48.376 W/logd    (28380): Dropped 4
+03-07 15:38:48.376 D/Mono    (28380): Image addref System.Xml.XmlSerializer[0xb8fb1fb8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Xml.XmlSerializer.dll[0xb8fb1728]: 2
+03-07 15:38:48.377 W/logd    (28380): Dropped 1
+03-07 15:38:48.377 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Xml.XmlSerializer.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Xml.XmlSerializer.dll.so" not found
+03-07 15:38:48.378 W/logd    (28380): Dropped 3
+03-07 15:38:48.378 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.Xml.XmlSerializer/System.Xml.XmlSerializer.config'.
+03-07 15:38:48.380 W/logd    (28380): Dropped 3
+03-07 15:38:48.380 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/PortableRest.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-PortableRest.dll.so" not found
+03-07 15:38:48.381 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/PortableRest.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-PortableRest.dll.so" not found
+03-07 15:38:48.382 W/logd    (28380): Dropped 4
+03-07 15:38:48.382 D/Mono    (28380): Image addref System.ServiceModel.Internals[0xb8fb3df8] -> /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Internals.dll[0xb8fb3518]: 2
+03-07 15:38:48.383 W/logd    (28380): Dropped 1
+03-07 15:38:48.383 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Internals.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.ServiceModel.Internals.dll.so" not found
+03-07 15:38:48.384 W/logd    (28380): Dropped 3
+03-07 15:38:48.384 D/Mono    (28380): Config attempting to parse: '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/etc/mono/assemblies/System.ServiceModel.Internals/System.ServiceModel.Internals.config'.
+03-07 15:38:48.386 W/logd    (28380): Dropped 3
+03-07 15:38:48.386 D/Mono    (28380): AOT module 'Mono.Android.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Mono.Android.dll.so" not found
+03-07 15:38:48.509 W/logd    (28380): Dropped 1
+03-07 15:38:48.509 D/Mono    (28380): Unloading image data-0x9f4c2008 [0xb8fb4d78].
+03-07 15:38:48.543 D/Mono    (28380): Assembly Ref addref Mono.Android[0xb8fb4cf8] -> mscorlib[0xb8f1aa10]: 2
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Primitives.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Validation.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.Design.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v4.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.AppCompat.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.CardView.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Android.Support.v7.MediaRouter.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Auth.Android.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Core.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.Android.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Maps.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.Android.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Platform.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.Forms.Xaml.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Base.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Xamarin.GooglePlayServices.Maps.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.Concurrent.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Collections.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.Annotations.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ComponentModel.EventBasedAsync.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Contracts.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Debug.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tools.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Diagnostics.Tracing.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Dynamic.Runtime.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Globalization.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.IO.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Expressions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Parallel.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Linq.Queryable.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.NetworkInformation.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Primitives.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Requests.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ObjectModel.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Emit.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Emit.ILGeneration.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Emit.Lightweight.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Extensions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Reflection.Primitives.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Resources.ResourceManager.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Extensions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.InteropServices.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.InteropServices.WindowsRuntime.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Numerics.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Serialization.Json.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Serialization.Primitives.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Runtime.Serialization.Xml.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Security.Principal.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Http.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Primitives.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Security.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.Encoding.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.Encoding.Extensions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Text.RegularExpressions.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Tasks.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Tasks.Parallel.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Timer.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Xml.ReaderWriter.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Xml.XDocument.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Xml.XmlSerializer.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/PortableRest.dll [External]
+Loaded assembly: /storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.ServiceModel.Internals.dll [External]
+Loaded assembly: Mono.Android.dll [External]
+03-07 15:38:49.227 D/Mono    (28380): DllImport attempting to load: '__Internal'.
+03-07 15:38:49.228 D/Mono    (28380): DllImport loaded library '(null)'.
+03-07 15:38:49.228 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:49.228 D/Mono    (28380): Searching for '_monodroid_lref_log_new'.
+03-07 15:38:49.228 D/Mono    (28380): Probing '_monodroid_lref_log_new'.
+03-07 15:38:49.228 D/Mono    (28380): Found as '_monodroid_lref_log_new'.
+03-07 15:38:49.236 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:49.236 D/Mono    (28380): Searching for '_monodroid_lref_log_delete'.
+03-07 15:38:49.236 D/Mono    (28380): Probing '_monodroid_lref_log_delete'.
+03-07 15:38:49.236 D/Mono    (28380): Found as '_monodroid_lref_log_delete'.
+03-07 15:38:49.238 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:49.238 D/Mono    (28380): Searching for '_monodroid_gref_log_new'.
+03-07 15:38:49.238 D/Mono    (28380): Probing '_monodroid_gref_log_new'.
+03-07 15:38:49.238 D/Mono    (28380): Found as '_monodroid_gref_log_new'.
+03-07 15:38:49.263 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:49.263 D/Mono    (28380): Searching for '_monodroid_get_identity_hash_code'.
+03-07 15:38:49.263 D/Mono    (28380): Probing '_monodroid_get_identity_hash_code'.
+03-07 15:38:49.263 D/Mono    (28380): Found as '_monodroid_get_identity_hash_code'.
+03-07 15:38:49.341 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:49.341 D/Mono    (28380): Searching for 'monodroid_typemap_java_to_managed'.
+03-07 15:38:49.341 D/Mono    (28380): Probing 'monodroid_typemap_java_to_managed'.
+03-07 15:38:49.341 D/Mono    (28380): Found as 'monodroid_typemap_java_to_managed'.
+03-07 15:38:49.445 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:49.445 D/Mono    (28380): Searching for '_monodroid_gref_log'.
+03-07 15:38:49.445 D/Mono    (28380): Probing '_monodroid_gref_log'.
+03-07 15:38:49.445 D/Mono    (28380): Found as '_monodroid_gref_log'.
+03-07 15:38:49.478 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:49.478 D/Mono    (28380): Searching for 'monodroid_typemap_managed_to_java'.
+03-07 15:38:49.478 D/Mono    (28380): Probing 'monodroid_typemap_managed_to_java'.
+03-07 15:38:49.478 D/Mono    (28380): Found as 'monodroid_typemap_managed_to_java'.
+03-07 15:38:49.491 D/Mono    (28380): Image addref System.Core[0xb917de70] -> System.Core.dll[0xb915e0f0]: 1
+03-07 15:38:49.491 D/Mono    (28380): Assembly System.Core[0xb917de70] added to domain RootDomain, ref_count=1
+03-07 15:38:49.492 D/Mono    (28380): AOT module 'System.Core.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Core.dll.so" not found
+03-07 15:38:49.493 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Core.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Core.dll.so" not found
+03-07 15:38:49.497 D/Mono    (28380): Unloading image data-0x9f439008 [0xb917dee0].
+03-07 15:38:49.499 D/Mono    (28380): Assembly Ref addref Mono.Android[0xb8fb4cf8] -> System.Core[0xb917de70]: 2
+03-07 15:38:49.499 D/Mono    (28380): Assembly Ref addref System.Core[0xb917de70] -> mscorlib[0xb8f1aa10]: 3
+Loaded assembly: System.Core.dll [External]
+03-07 15:38:49.936 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:49.936 D/Mono    (28380): Searching for '_monodroid_gref_log_delete'.
+03-07 15:38:49.936 D/Mono    (28380): Probing '_monodroid_gref_log_delete'.
+03-07 15:38:49.936 D/Mono    (28380): Found as '_monodroid_gref_log_delete'.
+03-07 15:38:49.950 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:49.950 D/Mono    (28380): Searching for '_monodroid_gc_wait_for_bridge_processing'.
+03-07 15:38:49.950 D/Mono    (28380): Probing '_monodroid_gc_wait_for_bridge_processing'.
+03-07 15:38:49.950 D/Mono    (28380): Found as '_monodroid_gc_wait_for_bridge_processing'.
+03-07 15:38:49.961 W/Mono    (28380): The request to load the assembly mscorlib v4.0.0.0 was remapped to v2.0.5.0
+03-07 15:38:49.962 D/Mono    (28380): Unloading image mscorlib.dll [0xb9312810].
+03-07 15:38:49.962 D/Mono    (28380): Assembly Ref addref FormsViewGroup[0xb8f6b678] -> mscorlib[0xb8f1aa10]: 4
+03-07 15:38:49.962 D/Mono    (28380): Assembly Ref addref FormsViewGroup[0xb8f6b678] -> Mono.Android[0xb8fb4cf8]: 2
+03-07 15:38:49.965 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.Design[0xb8f77b20] -> mscorlib[0xb8f1aa10]: 5
+03-07 15:38:49.965 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.Design[0xb8f77b20] -> Mono.Android[0xb8fb4cf8]: 3
+03-07 15:38:49.966 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.v4[0xb8f78a50] -> mscorlib[0xb8f1aa10]: 6
+03-07 15:38:49.966 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.v4[0xb8f78a50] -> Mono.Android[0xb8fb4cf8]: 4
+03-07 15:38:49.968 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.v7.AppCompat[0xb8f79998] -> mscorlib[0xb8f1aa10]: 7
+03-07 15:38:49.968 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.v7.AppCompat[0xb8f79998] -> Mono.Android[0xb8fb4cf8]: 5
+03-07 15:38:49.970 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.v7.CardView[0xb8f7a9c8] -> mscorlib[0xb8f1aa10]: 8
+03-07 15:38:49.970 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.v7.CardView[0xb8f7a9c8] -> Mono.Android[0xb8fb4cf8]: 6
+03-07 15:38:49.971 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.v7.MediaRouter[0xb8f7b8c0] -> mscorlib[0xb8f1aa10]: 9
+03-07 15:38:49.971 D/Mono    (28380): Assembly Ref addref Xamarin.Android.Support.v7.MediaRouter[0xb8f7b8c0] -> Mono.Android[0xb8fb4cf8]: 7
+03-07 15:38:49.973 D/Mono    (28380): Assembly Ref addref Xamarin.GooglePlayServices.Base[0xb8f83020] -> mscorlib[0xb8f1aa10]: 10
+03-07 15:38:49.974 D/Mono    (28380): Assembly Ref addref Xamarin.GooglePlayServices.Base[0xb8f83020] -> Mono.Android[0xb8fb4cf8]: 8
+03-07 15:38:49.978 D/Mono    (28380): Assembly Ref addref Xamarin.GooglePlayServices.Maps[0xb8f83f30] -> mscorlib[0xb8f1aa10]: 11
+03-07 15:38:49.978 D/Mono    (28380): Assembly Ref addref Xamarin.GooglePlayServices.Maps[0xb8f83f30] -> Mono.Android[0xb8fb4cf8]: 9
+03-07 15:38:49.991 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> Mono.Android[0xb8fb4cf8]: 10
+Loaded assembly: MonoDroidConstructors [External]
+03-07 15:38:50.194 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> Xamarin.Forms.Core[0xb8f7d650]: 2
+03-07 15:38:50.195 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Runtime[0xb8f9e3a0]: 2
+03-07 15:38:50.195 D/Mono    (28380): Assembly Ref addref System.Runtime[0xb8f9e3a0] -> mscorlib[0xb8f1aa10]: 12
+03-07 15:38:50.195 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> mscorlib[0xb8f1aa10]: 13
+03-07 15:38:50.195 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> Xamarin.Forms.Platform.Android[0xb8f80340]: 2
+03-07 15:38:50.195 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform.Android[0xb8f80340] -> Xamarin.Forms.Core[0xb8f7d650]: 3
+03-07 15:38:50.195 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform.Android[0xb8f80340] -> mscorlib[0xb8f1aa10]: 14
+03-07 15:38:50.218 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform.Android[0xb8f80340] -> Mono.Android[0xb8fb4cf8]: 11
+03-07 15:38:50.218 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.ObjectModel[0xb8f96ba0]: 2
+03-07 15:38:50.219 D/Mono    (28380): Image addref System[0xb946fb20] -> System.dll[0xb946f108]: 1
+03-07 15:38:50.219 D/Mono    (28380): Assembly System[0xb946fb20] added to domain RootDomain, ref_count=1
+03-07 15:38:50.220 D/Mono    (28380): AOT module 'System.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.dll.so" not found
+03-07 15:38:50.220 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.dll.so" not found
+03-07 15:38:50.229 D/Mono    (28380): Unloading image data-0x9f151008 [0xb946fbb8].
+03-07 15:38:50.232 D/Mono    (28380): Assembly Ref addref System.ObjectModel[0xb8f96ba0] -> System[0xb946fb20]: 2
+03-07 15:38:50.238 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> Eklecticus.Mobile.Pz[0xb8f6a660]: 2
+03-07 15:38:50.238 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Runtime[0xb8f9e3a0]: 3
+Loaded assembly: System.dll [External]
+03-07 15:38:50.453 D/OpenGLRenderer(28380): Render dirty regions requested: true
+03-07 15:38:50.469 D/Atlas   (28380): Validating map...
+03-07 15:38:50.545 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Collections[0xb8f85d10]: 2
+03-07 15:38:50.545 D/Mono    (28380): Assembly Ref addref System.Collections[0xb8f85d10] -> mscorlib[0xb8f1aa10]: 15
+03-07 15:38:50.551 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Threading[0xb8fac5f8]: 2
+03-07 15:38:50.551 D/Mono    (28380): Assembly Ref addref System.Threading[0xb8fac5f8] -> mscorlib[0xb8f1aa10]: 16
+03-07 15:38:50.558 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> Xamarin.Forms.Maps.Android[0xb8f7e558]: 2
+03-07 15:38:50.558 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps.Android[0xb8f7e558] -> mscorlib[0xb8f1aa10]: 17
+03-07 15:38:50.558 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps.Android[0xb8f7e558] -> Mono.Android[0xb8fb4cf8]: 12
+03-07 15:38:50.561 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> Xamarin.Forms.Core[0xb8f7d650]: 4
+03-07 15:38:50.561 D/Mono    (28380): Assembly Ref addref System[0xb946fb20] -> mscorlib[0xb8f1aa10]: 18
+03-07 15:38:50.563 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Threading.Tasks[0xb8fad4f8]: 2
+03-07 15:38:50.563 D/Mono    (28380): Assembly Ref addref System.Threading.Tasks[0xb8fad4f8] -> mscorlib[0xb8f1aa10]: 19
+03-07 15:38:50.564 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.ObjectModel[0xb8f96ba0]: 3
+03-07 15:38:50.564 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Threading.Tasks[0xb8fad4f8]: 3
+03-07 15:38:50.565 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Xml.ReaderWriter[0xb8fb01c8]: 2
+03-07 15:38:50.568 D/Mono    (28380): Image addref System.Xml[0xb94f1988] -> System.Xml.dll[0xb94f0ca8]: 1
+03-07 15:38:50.568 D/Mono    (28380): Assembly System.Xml[0xb94f1988] added to domain RootDomain, ref_count=1
+03-07 15:38:50.569 D/Mono    (28380): AOT module 'System.Xml.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Xml.dll.so" not found
+03-07 15:38:50.570 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Xml.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Xml.dll.so" not found
+03-07 15:38:50.574 D/Mono    (28380): Unloading image data-0x9e1f2008 [0xb94f1a08].
+03-07 15:38:50.578 D/Mono    (28380): Assembly Ref addref System.Xml.ReaderWriter[0xb8fb01c8] -> System.Xml[0xb94f1988]: 2
+03-07 15:38:50.581 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> System[0xb946fb20]: 3
+Loaded assembly: System.Xml.dll [External]
+03-07 15:38:50.786 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform.Android[0xb8f80340] -> System[0xb946fb20]: 4
+03-07 15:38:50.786 D/Mono    (28380): Assembly Ref addref System.Runtime[0xb8f9e3a0] -> System[0xb946fb20]: 5
+03-07 15:38:50.786 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.IO[0xb8f8f438]: 2
+03-07 15:38:50.786 D/Mono    (28380): Assembly Ref addref System.IO[0xb8f8f438] -> mscorlib[0xb8f1aa10]: 20
+03-07 15:38:50.786 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Reflection[0xb8f97a88]: 2
+03-07 15:38:50.786 D/Mono    (28380): Assembly Ref addref System.Reflection[0xb8f97a88] -> mscorlib[0xb8f1aa10]: 21
+03-07 15:38:50.788 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Runtime.Extensions[0xb8f9f2a8]: 2
+03-07 15:38:50.788 D/Mono    (28380): Assembly Ref addref System.Runtime.Extensions[0xb8f9f2a8] -> System[0xb946fb20]: 6
+03-07 15:38:50.793 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform.Android[0xb8f80340] -> System.Core[0xb917de70]: 3
+03-07 15:38:50.794 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Linq.Expressions[0xb8f91208]: 2
+03-07 15:38:50.794 D/Mono    (28380): Assembly Ref addref System.Linq.Expressions[0xb8f91208] -> System.Core[0xb917de70]: 4
+03-07 15:38:50.799 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> Xamarin.GooglePlayServices.Maps[0xb8f83f30]: 2
+03-07 15:38:50.800 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform.Android[0xb8f80340] -> FormsViewGroup[0xb8f6b678]: 2
+03-07 15:38:50.800 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps.Android[0xb8f7e558] -> Xamarin.Forms.Platform.Android[0xb8f80340]: 3
+03-07 15:38:50.801 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps.Android[0xb8f7e558] -> Xamarin.GooglePlayServices.Maps[0xb8f83f30]: 3
+03-07 15:38:50.813 D/Mono    (28380): Assembly Ref addref System.Runtime.Extensions[0xb8f9f2a8] -> mscorlib[0xb8f1aa10]: 22
+Thread started:  #2
+03-07 15:38:50.971 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Linq[0xb8f90310]: 2
+03-07 15:38:50.971 D/Mono    (28380): Assembly Ref addref System.Linq[0xb8f90310] -> System.Core[0xb917de70]: 5
+03-07 15:38:50.972 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Reflection.Extensions[0xb8f9b6d8]: 2
+03-07 15:38:50.972 D/Mono    (28380): Assembly Ref addref System.Reflection.Extensions[0xb8f9b6d8] -> mscorlib[0xb8f1aa10]: 23
+03-07 15:38:50.999 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> Xamarin.Forms.Maps[0xb8f7f420]: 2
+03-07 15:38:51.000 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps[0xb8f7f420] -> Xamarin.Forms.Core[0xb8f7d650]: 5
+03-07 15:38:51.000 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps[0xb8f7f420] -> System.Runtime[0xb8f9e3a0]: 4
+03-07 15:38:51.001 D/Mono    (28380): Assembly Ref addref Eklecticus.DTO[0xb8f69628] -> System.Runtime[0xb8f9e3a0]: 5
+03-07 15:38:51.001 D/Mono    (28380): Assembly Ref addref Eklecticus.DTO[0xb8f69628] -> System.Resources.ResourceManager[0xb8f9d4e8]: 2
+03-07 15:38:51.001 D/Mono    (28380): Assembly Ref addref System.Resources.ResourceManager[0xb8f9d4e8] -> mscorlib[0xb8f1aa10]: 24
+03-07 15:38:51.001 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> Xamarin.Forms.Xaml[0xb8f82108]: 2
+03-07 15:38:51.002 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Xaml[0xb8f82108] -> System.Runtime[0xb8f9e3a0]: 6
+03-07 15:38:51.002 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Resources.ResourceManager[0xb8f9d4e8]: 3
+03-07 15:38:51.002 D/Mono    (28380): The request to load the retargetable assembly mscorlib v2.0.5.0 was remapped to mscorlib v2.0.5.0
+03-07 15:38:51.002 D/Mono    (28380): Assembly Ref addref Microsoft.AspNet.SignalR.Client[0xb8f6c588] -> mscorlib[0xb8f1aa10]: 25
+03-07 15:38:51.003 D/Mono    (28380): Remapped public key token of retargetable assembly System.Core from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:51.003 D/Mono    (28380): The request to load the retargetable assembly System.Core v2.0.5.0 was remapped to System.Core v2.0.5.0
+03-07 15:38:51.003 D/Mono    (28380): Unloading image System.Core.dll [0xb96962c8].
+03-07 15:38:51.004 D/Mono    (28380): Image addref System.Core[0xb96a2298] -> System.Core.dll[0xb915e0f0]: 4
+03-07 15:38:51.004 D/Mono    (28380): Assembly Ref addref Microsoft.AspNet.SignalR.Client[0xb8f6c588] -> System.Core[0xb917de70]: 6
+03-07 15:38:51.004 D/Mono    (28380): The request to load the retargetable assembly mscorlib v2.0.5.0 was remapped to mscorlib v2.0.5.0
+03-07 15:38:51.004 D/Mono    (28380): Assembly Ref addref Microsoft.Threading.Tasks[0xb8f6d480] -> mscorlib[0xb8f1aa10]: 26
+03-07 15:38:51.004 D/Mono    (28380): Remapped public key token of retargetable assembly System.Core from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:51.004 D/Mono    (28380): The request to load the retargetable assembly System.Core v2.0.5.0 was remapped to System.Core v2.0.5.0
+03-07 15:38:51.005 D/Mono    (28380): Unloading image System.Core.dll [0xb96962c8].
+03-07 15:38:51.005 D/Mono    (28380): Image addref System.Core[0xb96a2298] -> System.Core.dll[0xb915e0f0]: 5
+03-07 15:38:51.005 D/Mono    (28380): Assembly Ref addref Microsoft.Threading.Tasks[0xb8f6d480] -> System.Core[0xb917de70]: 7
+03-07 15:38:51.005 D/Mono    (28380): The request to load the retargetable assembly mscorlib v2.0.5.0 was remapped to mscorlib v2.0.5.0
+03-07 15:38:51.005 D/Mono    (28380): Assembly Ref addref Microsoft.Threading.Tasks.Extensions[0xb8f6e3b8] -> mscorlib[0xb8f1aa10]: 27
+03-07 15:38:51.006 D/Mono    (28380): Remapped public key token of retargetable assembly System.Core from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:51.006 D/Mono    (28380): The request to load the retargetable assembly System.Core v2.0.5.0 was remapped to System.Core v2.0.5.0
+03-07 15:38:51.007 D/Mono    (28380): Unloading image System.Core.dll [0xb96962c8].
+03-07 15:38:51.007 D/Mono    (28380): Image addref System.Core[0xb96a2298] -> System.Core.dll[0xb915e0f0]: 6
+03-07 15:38:51.007 D/Mono    (28380): Assembly Ref addref Microsoft.Threading.Tasks.Extensions[0xb8f6e3b8] -> System.Core[0xb917de70]: 8
+03-07 15:38:51.007 D/Mono    (28380): The request to load the retargetable assembly mscorlib v2.0.5.0 was remapped to mscorlib v2.0.5.0
+03-07 15:38:51.007 D/Mono    (28380): Assembly Ref addref Newtonsoft.Json[0xb8f6f250] -> mscorlib[0xb8f1aa10]: 28
+03-07 15:38:51.008 D/Mono    (28380): Remapped public key token of retargetable assembly System.Core from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:51.008 D/Mono    (28380): The request to load the retargetable assembly System.Core v2.0.5.0 was remapped to System.Core v2.0.5.0
+03-07 15:38:51.008 D/Mono    (28380): Unloading image System.Core.dll [0xb96962c8].
+03-07 15:38:51.008 D/Mono    (28380): Image addref System.Core[0xb96a2298] -> System.Core.dll[0xb915e0f0]: 7
+03-07 15:38:51.008 D/Mono    (28380): Assembly Ref addref Newtonsoft.Json[0xb8f6f250] -> System.Core[0xb917de70]: 9
+03-07 15:38:51.008 D/Mono    (28380): Assembly Ref addref PCLCrypto[0xb8f70100] -> mscorlib[0xb8f1aa10]: 29
+03-07 15:38:51.009 D/Mono    (28380): Assembly Ref addref PCLCrypto[0xb8f70100] -> Mono.Android[0xb8fb4cf8]: 13
+03-07 15:38:51.009 D/Mono    (28380): Assembly Ref addref Plugin.Share.Abstractions[0xb8f71008] -> System.Runtime[0xb8f9e3a0]: 7
+03-07 15:38:51.009 D/Mono    (28380): Assembly Ref addref Plugin.Share.Abstractions[0xb8f71008] -> System.Resources.ResourceManager[0xb8f9d4e8]: 4
+03-07 15:38:51.009 D/Mono    (28380): Assembly Ref addref Plugin.Share[0xb8f72028] -> mscorlib[0xb8f1aa10]: 30
+03-07 15:38:51.010 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Runtime[0xb8f9e3a0]: 8
+03-07 15:38:51.010 D/Mono    (28380): Assembly Ref addref SQLite.Net.Platform.XamarinAndroid[0xb8f73f78] -> mscorlib[0xb8f1aa10]: 31
+03-07 15:38:51.010 D/Mono    (28380): Assembly Ref addref SQLite.Net.Platform.XamarinAndroid[0xb8f73f78] -> Mono.Android[0xb8fb4cf8]: 14
+03-07 15:38:51.011 D/Mono    (28380): The request to load the retargetable assembly mscorlib v2.0.5.0 was remapped to mscorlib v2.0.5.0
+03-07 15:38:51.011 D/Mono    (28380): Assembly Ref addref System.Net.Http.Extensions[0xb8f74e68] -> mscorlib[0xb8f1aa10]: 32
+03-07 15:38:51.011 D/Mono    (28380): Remapped public key token of retargetable assembly System.Core from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:51.011 D/Mono    (28380): The request to load the retargetable assembly System.Core v2.0.5.0 was remapped to System.Core v2.0.5.0
+03-07 15:38:51.012 D/Mono    (28380): Unloading image System.Core.dll [0xb96962c8].
+03-07 15:38:51.012 D/Mono    (28380): Image addref System.Core[0xb96a2d80] -> System.Core.dll[0xb915e0f0]: 8
+03-07 15:38:51.012 D/Mono    (28380): Assembly Ref addref System.Net.Http.Extensions[0xb8f74e68] -> System.Core[0xb917de70]: 10
+03-07 15:38:51.012 D/Mono    (28380): Assembly Ref addref System.Net.Http.Primitives[0xb8f75d58] -> System.Runtime[0xb8f9e3a0]: 9
+03-07 15:38:51.012 D/Mono    (28380): Assembly Ref addref System.Net.Http.Primitives[0xb8f75d58] -> System.Runtime.InteropServices[0xb8fa01b8]: 2
+03-07 15:38:51.012 D/Mono    (28380): Assembly Ref addref System.Runtime.InteropServices[0xb8fa01b8] -> mscorlib[0xb8f1aa10]: 33
+03-07 15:38:51.013 D/Mono    (28380): The request to load the retargetable assembly mscorlib v2.0.5.0 was remapped to mscorlib v2.0.5.0
+03-07 15:38:51.013 D/Mono    (28380): Assembly Ref addref Validation[0xb8f76c00] -> mscorlib[0xb8f1aa10]: 34
+03-07 15:38:51.013 D/Mono    (28380): Remapped public key token of retargetable assembly System.Core from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:51.013 D/Mono    (28380): The request to load the retargetable assembly System.Core v2.0.5.0 was remapped to System.Core v2.0.5.0
+03-07 15:38:51.014 D/Mono    (28380): Unloading image System.Core.dll [0xb96962c8].
+03-07 15:38:51.014 D/Mono    (28380): Image addref System.Core[0xb96a2dd8] -> System.Core.dll[0xb915e0f0]: 9
+03-07 15:38:51.014 D/Mono    (28380): Assembly Ref addref Validation[0xb8f76c00] -> System.Core[0xb917de70]: 11
+03-07 15:38:51.015 D/Mono    (28380): Assembly Ref addref Xamarin.Auth.Android[0xb8f7c798] -> mscorlib[0xb8f1aa10]: 35
+03-07 15:38:51.016 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps.Android[0xb8f7e558] -> Xamarin.Forms.Core[0xb8f7d650]: 6
+03-07 15:38:51.016 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps[0xb8f7f420] -> System.Resources.ResourceManager[0xb8f9d4e8]: 5
+03-07 15:38:51.017 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform[0xb8f81228] -> mscorlib[0xb8f1aa10]: 36
+03-07 15:38:51.017 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform[0xb8f81228] -> Mono.Android[0xb8fb4cf8]: 15
+03-07 15:38:51.018 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Xaml[0xb8f82108] -> Xamarin.Forms.Core[0xb8f7d650]: 7
+03-07 15:38:51.018 D/Mono    (28380): Assembly Ref addref System.Collections.Concurrent[0xb8f84e48] -> mscorlib[0xb8f1aa10]: 37
+03-07 15:38:51.019 D/Mono    (28380): Assembly Ref addref System.ComponentModel.Annotations[0xb8f86c38] -> mscorlib[0xb8f1aa10]: 38
+03-07 15:38:51.019 D/Mono    (28380): Assembly Ref addref System.ComponentModel[0xb8f87ba8] -> mscorlib[0xb8f1aa10]: 39
+03-07 15:38:51.020 D/Mono    (28380): Assembly Ref addref System.ComponentModel.EventBasedAsync[0xb8f88ae8] -> mscorlib[0xb8f1aa10]: 40
+03-07 15:38:51.020 D/Mono    (28380): Assembly Ref addref System.Diagnostics.Contracts[0xb8f899e0] -> mscorlib[0xb8f1aa10]: 41
+03-07 15:38:51.021 D/Mono    (28380): Assembly Ref addref System.Diagnostics.Debug[0xb8f8a8d0] -> mscorlib[0xb8f1aa10]: 42
+03-07 15:38:51.021 D/Mono    (28380): Assembly Ref addref System.Diagnostics.Tools[0xb8f8b7d8] -> mscorlib[0xb8f1aa10]: 43
+03-07 15:38:51.021 D/Mono    (28380): Assembly Ref addref System.Diagnostics.Tracing[0xb8f8c6d0] -> mscorlib[0xb8f1aa10]: 44
+03-07 15:38:51.022 D/Mono    (28380): Assembly Ref addref System.Dynamic.Runtime[0xb8f8d5b8] -> mscorlib[0xb8f1aa10]: 45
+03-07 15:38:51.022 D/Mono    (28380): Assembly Ref addref System.Globalization[0xb8f8e4a0] -> mscorlib[0xb8f1aa10]: 46
+03-07 15:38:51.023 D/Mono    (28380): Assembly Ref addref System.Linq[0xb8f90310] -> mscorlib[0xb8f1aa10]: 47
+03-07 15:38:51.024 D/Mono    (28380): Assembly Ref addref System.Linq.Expressions[0xb8f91208] -> mscorlib[0xb8f1aa10]: 48
+03-07 15:38:51.024 D/Mono    (28380): Assembly Ref addref System.Linq.Parallel[0xb8f920f8] -> mscorlib[0xb8f1aa10]: 49
+03-07 15:38:51.024 D/Mono    (28380): Assembly Ref addref System.Linq.Queryable[0xb8f92ff0] -> mscorlib[0xb8f1aa10]: 50
+03-07 15:38:51.025 D/Mono    (28380): Assembly Ref addref System.Net.NetworkInformation[0xb8f93f08] -> mscorlib[0xb8f1aa10]: 51
+03-07 15:38:51.025 D/Mono    (28380): Assembly Ref addref System.Net.Primitives[0xb8f94de0] -> mscorlib[0xb8f1aa10]: 52
+03-07 15:38:51.025 D/Mono    (28380): Assembly Ref addref System.Net.Requests[0xb8f95cc8] -> mscorlib[0xb8f1aa10]: 53
+03-07 15:38:51.026 D/Mono    (28380): Assembly Ref addref System.ObjectModel[0xb8f96ba0] -> mscorlib[0xb8f1aa10]: 54
+03-07 15:38:51.026 D/Mono    (28380): Assembly Ref addref System.Reflection.Emit[0xb8f98988] -> mscorlib[0xb8f1aa10]: 55
+03-07 15:38:51.027 D/Mono    (28380): Assembly Ref addref System.Reflection.Emit.ILGeneration[0xb8f998c8] -> mscorlib[0xb8f1aa10]: 56
+03-07 15:38:51.027 D/Mono    (28380): Assembly Ref addref System.Reflection.Emit.Lightweight[0xb8f9a7c8] -> mscorlib[0xb8f1aa10]: 57
+03-07 15:38:51.028 D/Mono    (28380): Assembly Ref addref System.Reflection.Primitives[0xb8f9c5d8] -> mscorlib[0xb8f1aa10]: 58
+03-07 15:38:51.029 D/Mono    (28380): Assembly Ref addref System.Runtime.InteropServices.WindowsRuntime[0xb8fa1108] -> mscorlib[0xb8f1aa10]: 59
+03-07 15:38:51.029 D/Mono    (28380): Assembly Ref addref System.Runtime.Numerics[0xb8fa1fc8] -> mscorlib[0xb8f1aa10]: 60
+03-07 15:38:51.030 D/Mono    (28380): Assembly Ref addref System.Runtime.Serialization.Json[0xb8fa2f00] -> mscorlib[0xb8f1aa10]: 61
+03-07 15:38:51.030 D/Mono    (28380): Assembly Ref addref System.Runtime.Serialization.Primitives[0xb8fa3e38] -> mscorlib[0xb8f1aa10]: 62
+03-07 15:38:51.030 D/Mono    (28380): Assembly Ref addref System.Runtime.Serialization.Xml[0xb8fa4d40] -> mscorlib[0xb8f1aa10]: 63
+03-07 15:38:51.031 D/Mono    (28380): Assembly Ref addref System.Security.Principal[0xb8fa5d30] -> mscorlib[0xb8f1aa10]: 64
+03-07 15:38:51.031 D/Mono    (28380): Assembly Ref addref System.ServiceModel.Http[0xb8fa6c48] -> mscorlib[0xb8f1aa10]: 65
+03-07 15:38:51.031 D/Mono    (28380): Assembly Ref addref System.ServiceModel.Primitives[0xb8fa7b48] -> mscorlib[0xb8f1aa10]: 66
+03-07 15:38:51.032 D/Mono    (28380): Assembly Ref addref System.ServiceModel.Security[0xb8fa8a50] -> mscorlib[0xb8f1aa10]: 67
+03-07 15:38:51.032 D/Mono    (28380): Assembly Ref addref System.Text.Encoding[0xb8fa9928] -> mscorlib[0xb8f1aa10]: 68
+03-07 15:38:51.032 D/Mono    (28380): Assembly Ref addref System.Text.Encoding.Extensions[0xb8faa838] -> mscorlib[0xb8f1aa10]: 69
+03-07 15:38:51.033 D/Mono    (28380): Assembly Ref addref System.Text.RegularExpressions[0xb8fab740] -> mscorlib[0xb8f1aa10]: 70
+03-07 15:38:51.034 D/Mono    (28380): Assembly Ref addref System.Threading.Tasks.Parallel[0xb8fae400] -> mscorlib[0xb8f1aa10]: 71
+03-07 15:38:51.035 D/Mono    (28380): Assembly Ref addref System.Threading.Timer[0xb8faf2e0] -> mscorlib[0xb8f1aa10]: 72
+03-07 15:38:51.035 D/Mono    (28380): Assembly Ref addref System.Xml.ReaderWriter[0xb8fb01c8] -> mscorlib[0xb8f1aa10]: 73
+03-07 15:38:51.035 D/Mono    (28380): Assembly Ref addref System.Xml.XDocument[0xb8fb10c0] -> mscorlib[0xb8f1aa10]: 74
+03-07 15:38:51.036 D/Mono    (28380): Assembly Ref addref System.Xml.XmlSerializer[0xb8fb1fb8] -> mscorlib[0xb8f1aa10]: 75
+03-07 15:38:51.036 D/Mono    (28380): The request to load the retargetable assembly mscorlib v2.0.5.0 was remapped to mscorlib v2.0.5.0
+03-07 15:38:51.036 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> mscorlib[0xb8f1aa10]: 76
+03-07 15:38:51.036 D/Mono    (28380): Remapped public key token of retargetable assembly System.Core from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:51.036 D/Mono    (28380): The request to load the retargetable assembly System.Core v2.0.5.0 was remapped to System.Core v2.0.5.0
+03-07 15:38:51.037 D/Mono    (28380): Unloading image System.Core.dll [0xb96ac758].
+03-07 15:38:51.037 D/Mono    (28380): Image addref System.Core[0xb96ac7f0] -> System.Core.dll[0xb915e0f0]: 10
+03-07 15:38:51.037 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> System.Core[0xb917de70]: 12
+03-07 15:38:51.037 D/Mono    (28380): Assembly Ref addref System.ServiceModel.Internals[0xb8fb3df8] -> mscorlib[0xb8f1aa10]: 77
+03-07 15:38:51.040 D/Mono    (28380): Assembly Ref addref System.Xml[0xb94f1988] -> mscorlib[0xb8f1aa10]: 78
+03-07 15:38:51.049 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps.Android[0xb8f7e558] -> Xamarin.GooglePlayServices.Base[0xb8f83020]: 2
+03-07 15:38:51.051 D/Mono    (28380): Assembly Ref addref Xamarin.GooglePlayServices.Maps[0xb8f83f30] -> Xamarin.GooglePlayServices.Base[0xb8f83020]: 3
+03-07 15:38:51.052 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps.Android[0xb8f7e558] -> System[0xb946fb20]: 7
+03-07 15:38:51.072 I/zzy     (28380): Making Creator dynamically
+03-07 15:38:51.205 W/ResourcesManager(28380): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+03-07 15:38:51.205 W/ResourcesManager(28380): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+03-07 15:38:51.257 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps.Android[0xb8f7e558] -> Xamarin.Forms.Maps[0xb8f7f420]: 3
+03-07 15:38:51.258 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Maps[0xb8f7f420] -> System.Threading.Tasks[0xb8fad4f8]: 4
+03-07 15:38:51.348 D/X:MainActivity(28380): Using Provider: gps
+03-07 15:38:51.365 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> Microsoft.AspNet.SignalR.Client[0xb8f6c588]: 2
+03-07 15:38:51.367 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> SQLite.Net[0xb8f73018]: 2
+03-07 15:38:51.368 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Diagnostics.Debug[0xb8f8a8d0]: 2
+03-07 15:38:51.368 D/Mono    (28380): Assembly Ref addref System.Diagnostics.Debug[0xb8f8a8d0] -> System[0xb946fb20]: 8
+03-07 15:38:51.376 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> Xamarin.Forms.Platform[0xb8f81228]: 2
+03-07 15:38:51.400 D/Mono    (28380): Assembly Ref addref System.Collections[0xb8f85d10] -> System[0xb946fb20]: 9
+03-07 15:38:51.471 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> SQLite.Net[0xb8f73018]: 3
+Thread started: <Thread Pool> #3
+Thread started: <Thread Pool> #4
+03-07 15:38:51.524 D/Mono    (28380): [0xb97ffb70] worker starting
+Thread started: <Thread Pool> #5
+03-07 15:38:51.552 D/Mono    (28380): [0xb9809030] worker starting
+03-07 15:38:51.552 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Dynamic.Runtime[0xb8f8d5b8]: 2
+03-07 15:38:51.560 D/Mono    (28380): Image addref System.Runtime.Serialization[0xb9818710] -> System.Runtime.Serialization.dll[0xb9831960]: 1
+03-07 15:38:51.560 D/Mono    (28380): Assembly System.Runtime.Serialization[0xb9818710] added to domain RootDomain, ref_count=1
+03-07 15:38:51.562 D/Mono    (28380): AOT module 'System.Runtime.Serialization.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.Serialization.dll.so" not found
+03-07 15:38:51.563 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Runtime.Serialization.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Runtime.Serialization.dll.so" not found
+03-07 15:38:51.564 D/Mono    (28380): Unloading image data-0x97e61008 [0xb982b238].
+03-07 15:38:51.565 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform.Android[0xb8f80340] -> System.Runtime.Serialization[0xb9818710]: 2
+03-07 15:38:51.566 D/Mono    (28380): Assembly Ref addref System.Runtime.Serialization[0xb9818710] -> System.Xml[0xb94f1988]: 3
+03-07 15:38:51.568 D/Mono    (28380): Assembly Ref addref System.Runtime.Serialization[0xb9818710] -> mscorlib[0xb8f1aa10]: 79
+Loaded assembly: System.Runtime.Serialization.dll [External]
+Thread started: <Thread Pool> #6
+03-07 15:38:51.699 D/Mono    (28380): [0xb98bb878] worker starting
+03-07 15:38:51.712 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll'.
+03-07 15:38:51.713 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Newtonsoft.Json.dll.so" not found
+03-07 15:38:51.714 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Newtonsoft.Json.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Newtonsoft.Json.dll.so" not found
+03-07 15:38:51.714 D/Mono    (28380): Assembly Ref addref Microsoft.AspNet.SignalR.Client[0xb8f6c588] -> Newtonsoft.Json[0xb8f6f250]: 2
+03-07 15:38:51.714 D/Mono    (28380): Remapped public key token of retargetable assembly System from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:51.714 D/Mono    (28380): The request to load the retargetable assembly System.Net v2.0.5.0 was remapped to System v2.0.5.0
+03-07 15:38:51.715 D/Mono    (28380): Unloading image System.dll [0xb9900800].
+03-07 15:38:51.715 D/Mono    (28380): Image addref System[0xb98ff860] -> System.dll[0xb946f108]: 4
+03-07 15:38:51.715 D/Mono    (28380): Assembly Ref addref Microsoft.AspNet.SignalR.Client[0xb8f6c588] -> System[0xb946fb20]: 10
+03-07 15:38:51.741 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Runtime.Extensions[0xb8f9f2a8]: 3
+03-07 15:38:51.742 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Collections[0xb8f85d10]: 3
+03-07 15:38:51.751 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Droid[0xb8f68618] -> SQLite.Net.Platform.XamarinAndroid[0xb8f73f78]: 2
+03-07 15:38:51.751 D/Mono    (28380): Assembly Ref addref SQLite.Net.Platform.XamarinAndroid[0xb8f73f78] -> SQLite.Net[0xb8f73018]: 4
+03-07 15:38:51.755 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Reflection[0xb8f97a88]: 3
+03-07 15:38:51.756 D/Mono    (28380): Assembly Ref addref SQLite.Net.Platform.XamarinAndroid[0xb8f73f78] -> System.Core[0xb917de70]: 13
+03-07 15:38:51.756 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Linq.Expressions[0xb8f91208]: 3
+03-07 15:38:51.763 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Collections[0xb8f85d10]: 4
+03-07 15:38:51.773 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Text.Encoding[0xb8fa9928]: 2
+03-07 15:38:51.774 D/Mono    (28380): DllImport attempting to load: '/system/lib/libsqlite.so'.
+03-07 15:38:51.778 D/Mono    (28380): DllImport loaded library '/system/lib/libsqlite.so'.
+03-07 15:38:51.778 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:51.778 D/Mono    (28380): Searching for 'sqlite3_open_v2'.
+03-07 15:38:51.778 D/Mono    (28380): Probing 'sqlite3_open_v2'.
+03-07 15:38:51.778 D/Mono    (28380): Found as 'sqlite3_open_v2'.
+03-07 15:38:51.788 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:51.788 D/Mono    (28380): Searching for 'sqlite3_busy_timeout'.
+03-07 15:38:51.788 D/Mono    (28380): Probing 'sqlite3_busy_timeout'.
+03-07 15:38:51.790 D/Mono    (28380): Found as 'sqlite3_busy_timeout'.
+03-07 15:38:51.800 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Linq[0xb8f90310]: 3
+03-07 15:38:51.801 D/Mono    (28380): Assembly Ref addref System.Runtime.Serialization[0xb9818710] -> System.ServiceModel.Internals[0xb8fb3df8]: 2
+03-07 15:38:51.802 D/Mono    (28380): Assembly Ref addref System.ServiceModel.Internals[0xb8fb3df8] -> System.Xml[0xb94f1988]: 4
+03-07 15:38:51.802 D/Mono    (28380): Assembly Ref addref System.Runtime.Serialization[0xb9818710] -> System[0xb946fb20]: 11
+03-07 15:38:51.828 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Threading[0xb8fac5f8]: 3
+03-07 15:38:51.842 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Reflection.Extensions[0xb8f9b6d8]: 3
+03-07 15:38:51.907 D/Mono    (28380): Image addref System.Net.Http[0xb9a0e958] -> System.Net.Http.dll[0xb9a0d4b8]: 1
+03-07 15:38:51.907 D/Mono    (28380): Assembly System.Net.Http[0xb9a0e958] added to domain RootDomain, ref_count=1
+03-07 15:38:51.908 D/Mono    (28380): AOT module 'System.Net.Http.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.dll.so" not found
+03-07 15:38:51.909 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.Http.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.dll.so" not found
+03-07 15:38:51.910 D/Mono    (28380): Unloading image data-0xb9a1cc28 [0xb9263b48].
+03-07 15:38:51.910 D/Mono    (28380): Assembly Ref addref Microsoft.AspNet.SignalR.Client[0xb8f6c588] -> System.Net.Http[0xb9a0e958]: 2
+03-07 15:38:51.910 D/Mono    (28380): Assembly Ref addref System.Net.Http[0xb9a0e958] -> mscorlib[0xb8f1aa10]: 80
+Loaded assembly: System.Net.Http.dll [External]
+03-07 15:38:52.028 D/Mono    (28380): Assembly Ref addref SQLite.Net[0xb8f73018] -> System.Globalization[0xb8f8e4a0]: 2
+03-07 15:38:52.030 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:52.030 D/Mono    (28380): Searching for 'sqlite3_prepare_v2'.
+03-07 15:38:52.030 D/Mono    (28380): Probing 'sqlite3_prepare_v2'.
+03-07 15:38:52.031 D/Mono    (28380): Found as 'sqlite3_prepare_v2'.
+03-07 15:38:52.039 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:52.040 D/Mono    (28380): Searching for 'sqlite3_step'.
+03-07 15:38:52.040 D/Mono    (28380): Probing 'sqlite3_step'.
+03-07 15:38:52.040 D/Mono    (28380): Found as 'sqlite3_step'.
+03-07 15:38:52.042 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:52.042 D/Mono    (28380): Searching for 'sqlite3_finalize'.
+03-07 15:38:52.042 D/Mono    (28380): Probing 'sqlite3_finalize'.
+03-07 15:38:52.042 D/Mono    (28380): Found as 'sqlite3_finalize'.
+03-07 15:38:52.054 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:52.054 D/Mono    (28380): Searching for 'sqlite3_changes'.
+03-07 15:38:52.054 D/Mono    (28380): Probing 'sqlite3_changes'.
+03-07 15:38:52.054 D/Mono    (28380): Found as 'sqlite3_changes'.
+03-07 15:38:52.078 D/Mono    (28380): Assembly Ref addref System.Xml[0xb94f1988] -> System[0xb946fb20]: 12
+03-07 15:38:52.086 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:52.087 D/Mono    (28380): Searching for 'sqlite3_column_count'.
+03-07 15:38:52.087 D/Mono    (28380): Probing 'sqlite3_column_count'.
+03-07 15:38:52.087 D/Mono    (28380): Found as 'sqlite3_column_count'.
+03-07 15:38:52.088 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:52.088 D/Mono    (28380): Searching for 'sqlite3_column_name16'.
+03-07 15:38:52.088 D/Mono    (28380): Probing 'sqlite3_column_name16'.
+03-07 15:38:52.088 D/Mono    (28380): Found as 'sqlite3_column_name16'.
+03-07 15:38:52.097 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:52.097 D/Mono    (28380): Searching for 'sqlite3_column_type'.
+03-07 15:38:52.099 D/Mono    (28380): Probing 'sqlite3_column_type'.
+03-07 15:38:52.099 D/Mono    (28380): Found as 'sqlite3_column_type'.
+03-07 15:38:52.129 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:52.129 D/Mono    (28380): Searching for 'sqlite3_column_text16'.
+03-07 15:38:52.129 D/Mono    (28380): Probing 'sqlite3_column_text16'.
+03-07 15:38:52.129 D/Mono    (28380): Found as 'sqlite3_column_text16'.
+03-07 15:38:52.135 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:38:52.135 D/Mono    (28380): Searching for 'sqlite3_column_int'.
+03-07 15:38:52.135 D/Mono    (28380): Probing 'sqlite3_column_int'.
+03-07 15:38:52.135 D/Mono    (28380): Found as 'sqlite3_column_int'.
+03-07 15:38:52.172 D/Mono    (28380): Remapped public key token of retargetable assembly System from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:52.172 D/Mono    (28380): The request to load the retargetable assembly System v2.0.5.0 was remapped to System v2.0.5.0
+03-07 15:38:52.173 D/Mono    (28380): Unloading image System.dll [0xb92c89c8].
+03-07 15:38:52.173 D/Mono    (28380): Image addref System[0xb9b03078] -> System.dll[0xb946f108]: 5
+03-07 15:38:52.173 D/Mono    (28380): Assembly Ref addref Newtonsoft.Json[0xb8f6f250] -> System[0xb946fb20]: 13
+03-07 15:38:52.191 D/Mono    (28380): Remapped public key token of retargetable assembly System.Runtime.Serialization from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:52.191 D/Mono    (28380): The request to load the retargetable assembly System.Runtime.Serialization v2.0.5.0 was remapped to System.Runtime.Serialization v2.0.5.0
+03-07 15:38:52.192 D/Mono    (28380): Unloading image System.Runtime.Serialization.dll [0xb9b444d8].
+03-07 15:38:52.192 D/Mono    (28380): Image addref System.Runtime.Serialization[0xb9b03950] -> System.Runtime.Serialization.dll[0xb9831960]: 4
+03-07 15:38:52.192 D/Mono    (28380): Assembly Ref addref Newtonsoft.Json[0xb8f6f250] -> System.Runtime.Serialization[0xb9818710]: 3
+03-07 15:38:52.474 D/Mono    (28380): DllImport attempting to load: '__Internal'.
+03-07 15:38:52.474 D/Mono    (28380): DllImport loaded library '(null)'.
+03-07 15:38:52.474 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:52.474 D/Mono    (28380): Searching for 'monodroid_get_system_property'.
+03-07 15:38:52.474 D/Mono    (28380): Probing 'monodroid_get_system_property'.
+03-07 15:38:52.474 D/Mono    (28380): Found as 'monodroid_get_system_property'.
+03-07 15:38:52.475 D/Mono    (28380): DllImport searching in: '__Internal' ('(null)').
+03-07 15:38:52.475 D/Mono    (28380): Searching for 'monodroid_free'.
+03-07 15:38:52.475 D/Mono    (28380): Probing 'monodroid_free'.
+03-07 15:38:52.475 D/Mono    (28380): Found as 'monodroid_free'.
+03-07 15:38:52.498 D/Mono    (28380): Assembly Ref addref System.ServiceModel.Internals[0xb8fb3df8] -> System[0xb946fb20]: 14
+03-07 15:38:52.596 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Threading[0xb8fac5f8]: 4
+03-07 15:38:52.648 D/Mono    (28380): Assembly Ref addref System.Core[0xb917de70] -> System[0xb946fb20]: 15
+03-07 15:38:52.718 D/Mono    (28380): DllImport attempting to load: '/system/lib/libc.so'.
+03-07 15:38:52.719 D/Mono    (28380): DllImport loaded library '/system/lib/libc.so'.
+03-07 15:38:52.719 D/Mono    (28380): DllImport searching in: '/system/lib/libc.so' ('/system/lib/libc.so').
+03-07 15:38:52.719 D/Mono    (28380): Searching for 'gettid'.
+03-07 15:38:52.719 D/Mono    (28380): Probing 'gettid'.
+03-07 15:38:52.719 D/Mono    (28380): Found as 'gettid'.
+03-07 15:38:52.732 D/Mono    (28380): [0xb97ffb70] hill climbing, change max number of threads 4
+03-07 15:38:52.825 D/Mono    (28380): DllImport attempting to load: '/system/lib/liblog.so'.
+looking for congig
+[0:] looking for congig
+03-07 15:38:52.825 D/Mono    (28380): DllImport loaded library '/system/lib/liblog.so'.
+03-07 15:38:52.825 D/Mono    (28380): DllImport searching in: '/system/lib/liblog.so' ('/system/lib/liblog.so').
+03-07 15:38:52.825 D/Mono    (28380): Searching for '__android_log_print'.
+03-07 15:38:52.825 D/Mono    (28380): Probing '__android_log_print'.
+03-07 15:38:52.825 D/Mono    (28380): Found as '__android_log_print'.
+03-07 15:38:52.826 I/mono-stdout(28380): looking for congig
+Loaded assembly: Anonymously Hosted DynamicMethods Assembly [External]
+tryAutoLogin debug
+03-07 15:38:53.002 I/mono-stdout(28380): tryAutoLogin debug
+[0:] tryAutoLogin debug
+03-07 15:38:53.153 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.ComponentModel[0xb8f87ba8]: 2
+03-07 15:38:53.158 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Xaml[0xb8f82108] -> System.ComponentModel[0xb8f87ba8]: 3
+03-07 15:38:53.160 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Xml.ReaderWriter[0xb8fb01c8]: 3
+03-07 15:38:53.161 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Core[0xb8f7d650] -> System.Globalization[0xb8f8e4a0]: 3
+03-07 15:38:53.161 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Globalization[0xb8f8e4a0]: 4
+03-07 15:38:53.169 W/Mono    (28380): The request to load the assembly mscorlib v4.0.0.0 was remapped to v2.0.5.0
+03-07 15:38:53.169 D/Mono    (28380): Unloading image mscorlib.dll [0xb9dafdb8].
+03-07 15:38:53.169 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> mscorlib[0xb8f1aa10]: 81
+03-07 15:38:53.170 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Xaml[0xb8f82108] -> System.Collections[0xb8f85d10]: 5
+03-07 15:38:53.171 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Xaml[0xb8f82108] -> System.Xml.ReaderWriter[0xb8fb01c8]: 4
+03-07 15:38:53.174 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Xaml[0xb8f82108] -> System.Reflection[0xb8f97a88]: 4
+03-07 15:38:53.174 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Reflection[0xb8f97a88]: 5
+03-07 15:38:53.174 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.ComponentModel[0xb8f87ba8]: 4
+03-07 15:38:53.421 D/Mono    (28380): Remapped public key token of retargetable assembly System from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:53.421 D/Mono    (28380): The request to load the retargetable assembly System v2.0.5.0 was remapped to System v2.0.5.0
+03-07 15:38:53.422 D/Mono    (28380): Unloading image System.dll [0xb9e2f9e0].
+03-07 15:38:53.422 D/Mono    (28380): Image addref System[0xb9e001a8] -> System.dll[0xb946f108]: 6
+03-07 15:38:53.422 D/Mono    (28380): Assembly Ref addref Microsoft.AspNet.SignalR.Client[0xb8f6c588] -> System[0xb946fb20]: 16
+03-07 15:38:53.426 D/Mono    (28380): Assembly Ref addref System.Net.Http[0xb9a0e958] -> System[0xb946fb20]: 17
+03-07 15:38:53.429 D/Mono    (28380): Assembly Ref addref System.Collections[0xb8f85d10] -> System.Core[0xb917de70]: 14
+03-07 15:38:53.430 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Extensions.dll'.
+03-07 15:38:53.431 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.Extensions.dll.so" not found
+03-07 15:38:53.432 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.Http.Extensions.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.Extensions.dll.so" not found
+03-07 15:38:53.432 D/Mono    (28380): Assembly Ref addref Microsoft.AspNet.SignalR.Client[0xb8f6c588] -> System.Net.Http.Extensions[0xb8f74e68]: 2
+03-07 15:38:53.433 D/Mono    (28380): Unloading image System.Net.Http.dll [0xba043d08].
+03-07 15:38:53.433 D/Mono    (28380): Image addref System.Net.Http[0xba08f3a8] -> System.Net.Http.dll[0xb9a0d4b8]: 4
+03-07 15:38:53.433 D/Mono    (28380): Assembly Ref addref System.Net.Http.Extensions[0xb8f74e68] -> System.Net.Http[0xb9a0e958]: 3
+03-07 15:38:53.546 D/Mono    (28380): Assembly Ref addref System.Net.Http[0xb9a0e958] -> System.Core[0xb917de70]: 15
+03-07 15:38:53.579 D/Mono    (28380): Assembly Ref addref Mono.Android[0xb8fb4cf8] -> System[0xb946fb20]: 18
+03-07 15:38:53.758 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> PortableRest[0xb8fb2e90]: 2
+03-07 15:38:53.762 D/Mono    (28380): Unloading image System.Net.Http.dll [0xba1bfb00].
+03-07 15:38:53.762 D/Mono    (28380): Image addref System.Net.Http[0xba043c60] -> System.Net.Http.dll[0xb9a0d4b8]: 5
+03-07 15:38:53.762 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> System.Net.Http[0xb9a0e958]: 4
+03-07 15:38:53.762 D/Mono    (28380): Remapped public key token of retargetable assembly System from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:53.763 D/Mono    (28380): The request to load the retargetable assembly System.Net v2.0.5.0 was remapped to System v2.0.5.0
+03-07 15:38:53.763 D/Mono    (28380): Unloading image System.dll [0xba1bfb00].
+03-07 15:38:53.763 D/Mono    (28380): Image addref System[0xba1acdd8] -> System.dll[0xb946f108]: 7
+03-07 15:38:53.763 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> System[0xb946fb20]: 19
+03-07 15:38:53.764 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll'.
+03-07 15:38:53.765 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/Newtonsoft.Json.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Newtonsoft.Json.dll.so" not found
+03-07 15:38:53.765 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/Newtonsoft.Json.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-Newtonsoft.Json.dll.so" not found
+03-07 15:38:53.766 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> Newtonsoft.Json[0xb8f6f250]: 3
+03-07 15:38:53.766 D/Mono    (28380): Remapped public key token of retargetable assembly System.Xml.Linq from 31bf3856ad364e35 to b77a5c561934e089
+03-07 15:38:53.766 D/Mono    (28380): The request to load the retargetable assembly System.Xml.Linq v2.0.5.0 was remapped to System.Xml.Linq v2.0.5.0
+03-07 15:38:53.766 D/Mono    (28380): Image addref System.Xml.Linq[0xba1acdd8] -> System.Xml.Linq.dll[0xba1bfb18]: 1
+03-07 15:38:53.767 D/Mono    (28380): Assembly System.Xml.Linq[0xba1acdd8] added to domain RootDomain, ref_count=1
+03-07 15:38:53.767 D/Mono    (28380): AOT module 'System.Xml.Linq.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Xml.Linq.dll.so" not found
+03-07 15:38:53.768 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Xml.Linq.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Xml.Linq.dll.so" not found
+03-07 15:38:53.768 D/Mono    (28380): Unloading image data-0xba1ea230 [0xba1dbfb8].
+03-07 15:38:53.768 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> System.Xml.Linq[0xba1acdd8]: 2
+03-07 15:38:53.769 D/Mono    (28380): Assembly Ref addref System.Xml.Linq[0xba1acdd8] -> mscorlib[0xb8f1aa10]: 82
+03-07 15:38:53.769 D/Mono    (28380): Assembly Ref addref System.Xml.Linq[0xba1acdd8] -> System.Xml[0xb94f1988]: 5
+03-07 15:38:53.772 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Net.Http[0xb9a0e958]: 5
+03-07 15:38:53.775 D/Mono    (28380): Unloading image System.Net.Http.dll [0xba1e1b90].
+03-07 15:38:53.775 D/Mono    (28380): Image addref System.Net.Http[0xba1e0a60] -> System.Net.Http.dll[0xb9a0d4b8]: 6
+03-07 15:38:53.775 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Net.Http[0xb9a0e958]: 6
+Loaded assembly: System.Xml.Linq.dll [External]
+03-07 15:38:53.795 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Primitives.dll'.
+03-07 15:38:53.797 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Net.Http.Primitives.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.Primitives.dll.so" not found
+03-07 15:38:53.797 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Net.Http.Primitives.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Net.Http.Primitives.dll.so" not found
+03-07 15:38:53.797 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> System.Net.Http.Primitives[0xb8f75d58]: 2
+03-07 15:38:53.798 D/Mono    (28380): Assembly Ref addref System.Net.Http.Primitives[0xb8f75d58] -> System.Net.Primitives[0xb8f94de0]: 2
+03-07 15:38:53.798 D/Mono    (28380): Assembly Ref addref System.Net.Primitives[0xb8f94de0] -> System[0xb946fb20]: 20
+03-07 15:38:53.816 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Tasks.dll'.
+03-07 15:38:53.817 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Threading.Tasks.dll.so" not found
+03-07 15:38:53.817 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Threading.Tasks.dll.so" not found
+03-07 15:38:53.817 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> System.Threading.Tasks[0xb8fad4f8]: 5
+03-07 15:38:53.824 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> Microsoft.Threading.Tasks[0xb8f6d480]: 2
+03-07 15:38:53.825 D/Mono    (28380): Assembly Loader probing location: '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Tasks.dll'.
+03-07 15:38:53.826 D/Mono    (28380): AOT module '/storage/emulated/0/Android/data/eklecticus.mobile.droid/files/.__override__/System.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Threading.Tasks.dll.so" not found
+03-07 15:38:53.826 D/Mono    (28380): AOT module '/Users/builder/data/lanes/2098/3efa14c4/source/monodroid/builds/install/mono-armv7/lib/mono/aot-cache/arm/System.Threading.Tasks.dll.so' not found: dlopen failed: library "/data/app/eklecticus.mobile.droid-1/lib/arm/libaot-System.Threading.Tasks.dll.so" not found
+03-07 15:38:53.827 D/Mono    (28380): Assembly Ref addref Microsoft.Threading.Tasks[0xb8f6d480] -> System.Threading.Tasks[0xb8fad4f8]: 6
+03-07 15:38:53.854 D/Mono    (28380): Remapped public key token of retargetable assembly System from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:53.854 D/Mono    (28380): The request to load the retargetable assembly System v2.0.5.0 was remapped to System v2.0.5.0
+03-07 15:38:53.855 D/Mono    (28380): Unloading image System.dll [0xba237eb8].
+03-07 15:38:53.856 D/Mono    (28380): Image addref System[0xba23a8f8] -> System.dll[0xb946f108]: 8
+03-07 15:38:53.856 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> System[0xb946fb20]: 21
+03-07 15:38:53.982 D/Mono    (28380): Remapped public key token of retargetable assembly System.Runtime.Serialization from 7cec85d7bea7798e to b77a5c561934e089
+03-07 15:38:53.982 D/Mono    (28380): The request to load the retargetable assembly System.Runtime.Serialization v2.0.5.0 was remapped to System.Runtime.Serialization v2.0.5.0
+03-07 15:38:53.983 D/Mono    (28380): Unloading image System.Runtime.Serialization.dll [0xba2a6cb0].
+03-07 15:38:53.983 D/Mono    (28380): Image addref System.Runtime.Serialization[0xba23fd40] -> System.Runtime.Serialization.dll[0xb9831960]: 5
+03-07 15:38:53.983 D/Mono    (28380): Assembly Ref addref PortableRest[0xb8fb2e90] -> System.Runtime.Serialization[0xb9818710]: 4
+03-07 15:38:54.198 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> Eklecticus.DTO[0xb8f69628]: 2
+03-07 15:38:54.268 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Xaml[0xb8f82108] -> System.Reflection.Extensions[0xb8f9b6d8]: 4
+03-07 15:38:54.268 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Xaml[0xb8f82108] -> System.Linq[0xb8f90310]: 4
+03-07 15:38:54.297 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Linq[0xb8f90310]: 5
+03-07 15:38:54.343 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform.Android[0xb8f80340] -> Xamarin.Android.Support.v4[0xb8f78a50]: 2
+03-07 15:38:54.441 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform[0xb8f81228] -> Xamarin.Forms.Core[0xb8f7d650]: 8
+03-07 15:38:54.645 W/art     (28380): JNI RegisterNativeMethods: attempt to register 0 native methods for md5b60ffeb829f638581ab2bb9b1a7f4f3f.Platform_DefaultRenderer
+03-07 15:38:54.673 W/art     (28380): JNI RegisterNativeMethods: attempt to register 0 native methods for md5b60ffeb829f638581ab2bb9b1a7f4f3f.ImageRenderer
+Thread started: <Thread Pool> #7
+03-07 15:38:54.748 D/Mono    (28380): [0xba48c608] worker starting
+03-07 15:38:54.829 W/art     (28380): JNI RegisterNativeMethods: attempt to register 0 native methods for md5b60ffeb829f638581ab2bb9b1a7f4f3f.LabelRenderer
+Thread started: <Thread Pool> #8
+03-07 15:38:54.925 D/Mono    (28380): Assembly Ref addref Xamarin.Forms.Platform.Android[0xb8f80340] -> Xamarin.Android.Support.v7.AppCompat[0xb8f79998]: 2
+03-07 15:38:55.226 D/Mono    (28380): Assembly Ref addref Mono.Android[0xb8fb4cf8] -> System.Xml[0xb94f1988]: 6
+03-07 15:38:55.337 D/Mono    (28380): [0xb9809030] hill climbing, change max number of threads 5
+03-07 15:38:55.493 I/art     (28380): Background partial concurrent mark sweep GC freed 125(7KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 22MB/37MB, paused 7.618ms total 35.898ms
+03-07 15:38:55.679 I/Adreno-EGL(28380): <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LA.BF.1.1_RB1.05.00.00.002.030_msm8226_LA.BF.1.1_RB1__release_AU ()
+03-07 15:38:55.679 I/Adreno-EGL(28380): OpenGL ES Shader Compiler Version: E031.25.03.00
+03-07 15:38:55.679 I/Adreno-EGL(28380): Build Date: 12/04/14 Thu
+03-07 15:38:55.679 I/Adreno-EGL(28380): Local Branch: 
+03-07 15:38:55.679 I/Adreno-EGL(28380): Remote Branch: quic/LA.BF.1.1_rb1.14
+03-07 15:38:55.679 I/Adreno-EGL(28380): Local Patches: NONE
+03-07 15:38:55.679 I/Adreno-EGL(28380): Reconstruct Branch: AU_LINUX_ANDROID_LA.BF.1.1_RB1.05.00.00.002.030 +  NOTHING
+03-07 15:38:55.681 I/OpenGLRenderer(28380): Initialized EGL, version 1.4
+03-07 15:38:55.707 D/OpenGLRenderer(28380): Enabling debug mode 0
+03-07 15:38:56.080 W/art     (28380): JNI RegisterNativeMethods: attempt to register 0 native methods for md5b60ffeb829f638581ab2bb9b1a7f4f3f.CellRenderer_RendererHolder
+03-07 15:38:56.270 W/ResourceType(28380): No package identifier when getting value for resource number 0x00000000
+03-07 15:38:56.308 W/ResourceType(28380): No package identifier when getting value for resource number 0x00000000
+03-07 15:38:56.369 I/Choreographer(28380): Skipped 43 frames!  The application may be doing too much work on its main thread.
+Thread started: <Thread Pool> #9
+03-07 15:38:57.826 D/Mono    (28380): [0xba770408] worker starting
+current user pzts are: 22
+03-07 15:38:58.059 I/mono-stdout(28380): current user pzts are: 22
+[0:] current user pzts are: 22
+Start Completed - State Connected
+03-07 15:38:59.372 I/mono-stdout(28380): Start Completed - State Connected
+[0:] Start Completed - State Connected
+03-07 15:39:01.552 D/Mono    (28380): [0xb98bb878] hill climbing, change max number of threads 4
+current user pzts are: 22
+03-07 15:39:01.568 I/mono-stdout(28380): current user pzts are: 22
+[0:] current user pzts are: 22
+03-07 15:39:04.188 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:39:04.188 D/Mono    (28380): Searching for 'sqlite3_bind_int'.
+03-07 15:39:04.188 D/Mono    (28380): Probing 'sqlite3_bind_int'.
+03-07 15:39:04.188 D/Mono    (28380): Found as 'sqlite3_bind_int'.
+03-07 15:39:04.189 D/Mono    (28380): DllImport searching in: '/system/lib/libsqlite.so' ('/system/lib/libsqlite.so').
+03-07 15:39:04.189 D/Mono    (28380): Searching for 'sqlite3_bind_text16'.
+03-07 15:39:04.189 D/Mono    (28380): Probing 'sqlite3_bind_text16W'.
+03-07 15:39:04.189 D/Mono    (28380): Could not find 'sqlite3_bind_text16W' due to 'undefined symbol: sqlite3_bind_text16W'.
+03-07 15:39:04.189 D/Mono    (28380): Probing 'sqlite3_bind_text16W'.
+03-07 15:39:04.189 D/Mono    (28380): Could not find 'sqlite3_bind_text16W' due to 'undefined symbol: sqlite3_bind_text16W'.
+03-07 15:39:04.189 D/Mono    (28380): Probing 'sqlite3_bind_text16'.
+03-07 15:39:04.189 D/Mono    (28380): Found as 'sqlite3_bind_text16'.
+03-07 15:39:04.203 D/Mono    (28380): Assembly Ref addref Eklecticus.Mobile.Pz[0xb8f6a660] -> System.Runtime.Extensions[0xb8f9f2a8]: 4
+03-07 15:39:05.026 D/Mono    (28380): Assembly Ref addref Eklecticus.DTO[0xb8f69628] -> System.Runtime.Serialization.Primitives[0xb8fa3e38]: 2
+03-07 15:39:05.026 D/Mono    (28380): Assembly Ref addref System.Runtime.Serialization.Primitives[0xb8fa3e38] -> System.Runtime.Serialization[0xb9818710]: 5
+getadelementsasync just ran, element number was 0
+03-07 15:39:05.042 I/mono-stdout(28380): getadelementsasync just ran, element number was 0
+[0:] getadelementsasync just ran, element number was 0
+getadelementsasync just ran, element number was 0
+03-07 15:39:05.755 I/mono-stdout(28380): getadelementsasync just ran, element number was 0
+[0:] getadelementsasync just ran, element number was 0
+03-07 15:39:32.696 D/Mono    (28380): [0xba770408] hill climbing, change max number of threads 5
+Thread finished: <Thread Pool> #3
+The thread 'Unknown' (0x3) has exited with code 0 (0x0).
+Thread started: <Thread Pool> #11
+03-07 15:40:42.128 D/Mono    (28380): [0xba48c608] hill climbing, change max number of threads 4
+Thread finished: <Thread Pool> #11
+The thread 'Unknown' (0xb) has exited with code 0 (0x0).
+Thread started: <Thread Pool> #12
+03-07 15:40:53.185 I/art     (28380): Explicit concurrent mark sweep GC freed 2285(154KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 22MB/38MB, paused 686us total 37.579ms
+03-07 15:40:53.187 D/Mono    (28380): GC_OLD_BRIDGE num-objects 190 num_hash_entries 191 sccs size 191 init 0.00ms df1 0.44ms sort 0.19ms dfs2 0.64ms setup-cb 0.20ms free-data 0.13ms links 2/2/2/1 dfs passes 383/193
+03-07 15:40:53.187 D/Mono    (28380): GC_MINOR: (Nursery full) pause 24.77ms, total 24.87ms, bridge 0.00ms promoted 1824K major 1824K los 146K
+getadelementsasync just ran, element number was 0
+03-07 15:41:00.775 I/mono-stdout(28380): getadelementsasync just ran, element number was 0
+[0:] getadelementsasync just ran, element number was 0
+03-07 15:41:02.128 D/Mono    (28380): [0xba770408] hill climbing, change max number of threads 24
+Thread finished: <Thread Pool> #12
+The thread 'Unknown' (0xc) has exited with code 0 (0x0).
+Thread started: <Thread Pool> #13
+03-07 15:42:21.982 D/Mono    (28380): [0xb97e81b8] hill climbing, change max number of threads 25
+Thread finished: <Thread Pool> #13
+The thread 'Unknown' (0xd) has exited with code 0 (0x0).
+Thread started: <Thread Pool> #14
+Thread finished: <Thread Pool> #14
+The thread 'Unknown' (0xe) has exited with code 0 (0x0).
+Thread started: <Thread Pool> #15
